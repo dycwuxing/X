@@ -59,7 +59,7 @@ http-response ^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user requires-bod
 http-response ^https:\/\/xy-viva\.kakalili\.com\/api\/rest\/u\/vipVerifyReceipt requires-body=1,script-path= https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js, tag=VIP_小影
 
 # 扫描全能王 pro
-http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,script-path= https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag=VIP_扫描全能王 
+http-response ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=true, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag=VIP_扫描全能王
 
 # VUE pro
 http-response ^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) requires-body=1,script-path= https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js, tag=VIP_VUE 

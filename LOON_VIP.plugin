@@ -8,16 +8,8 @@
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, vip1.kuwo.cn, p.du.163.com, vsco.co, user*.zymk.cn, vni.kwaiying.com, *.my10api.com, www.luqijianggushi.com, account.wps.cn, origin-prod-phoenix.jibjab.com, api.bjxkhc.com, xy-viva.kakalili.com, ap*.intsig.net, m*.bybutter.com, api.vuevideo.net, api.picsart.c*, ios.fuliapps.com, apple.fuliapps.com, *.pipiapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, trade-acs.m.taobao.com, api.m.jd.com, ios*.prod.ftl.netflix.com, api.revenuecat.com, pan.baidu.com, bmall.camera360.com, api.polaxiong.com,,biz.caiyunapp.com,spclient.wg.spotify.com,api.feidee.net,userapi.feidee.net,tg.feidee.com,community.feidee.com,
 
 [URL Rewrite]
-# Spotify-iOS15
-# 部分解锁premium,建议重新登录,音质不能设置为超高
-# 1. 搜索界面 歌单/歌曲可以随意切换完全播放  2. 音乐库已点赞歌曲随意切换完全播
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=VIP_spotify
-
 #随手记付费皮肤
-http-response ^https?:\/\/((user)?api|community)\.feidee\.(net|com)\/(v\d\/(pay/vip|profile/basic_info|app_themes/types)|transfer\/gapi\/accurat\/v\d\/tasks) script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js, requires-body=true, timeout=10, tag=VIP_随手记
-http-response ^https?:\/\/api\.feidee\.net\/v\d\/app_themes\/\d+\/download script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js
 ^https?:\/\/tg\.feidee\.com\/online_ad\/  reject
-
 #爱美剧
 ^https?://api.bjxkhc.com/index.php/app/ios/ads/index reject
 ^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ reject
@@ -26,6 +18,15 @@ http-response ^https?:\/\/api\.feidee\.net\/v\d\/app_themes\/\d+\/download scrip
 ^https?://p\.du\.163\.com/readtime/info.json reject
 
 [Script]
+# Spotify-iOS15
+# 部分解锁premium,建议重新登录,音质不能设置为超高
+# 1. 搜索界面 歌单/歌曲可以随意切换完全播放  2. 音乐库已点赞歌曲随意切换完全播
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=VIP_spotify
+
+#随手记付费皮肤
+http-response ^https?:\/\/((user)?api|community)\.feidee\.(net|com)\/(v\d\/(pay/vip|profile/basic_info|app_themes/types)|transfer\/gapi\/accurat\/v\d\/tasks) script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js, requires-body=true, timeout=10, tag=VIP_随手记
+http-response ^https?:\/\/api\.feidee\.net\/v\d\/app_themes\/\d+\/download script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/SuiShouJi.js
+
 # Gear
 http-response ^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) script-path=https://ghproxy.com/https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gearpro.js, requires-body=true, timeout=10, tag=VIP_Gear
 

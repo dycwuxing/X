@@ -22,5 +22,3 @@ DOMAIN-SUFFIX,nicorette.co.kr,REJECT
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
 [Script]
 http-request ^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A) script-path=https://choler.github.io/Surge/Script/YouTube.js, requires-body=true, timeout=10, tag=去广告_YouTube
-[MITM]
-hostname = %APPEND% *.googlevideo.com

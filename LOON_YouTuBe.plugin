@@ -1,15 +1,9 @@
 #!name=Block YouTube(<=16.43.2) Advertising
 #!desc=仅用于视频广告，不适用允许 UDP 转发的节点及 Premium
 #原地址:https://github.com/DivineEngine/Profiles/blob/master/Surge/Module/Block/YouTubeAds.sgmodule
+#原地址:https://raw.githubusercontent.com/cjf0423/Surge/0a22c6d981500e58759a9a0dfafaac0ed7a6b627/Module/YouTubeAD.sgmodule
 [MITM]
 hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
-[URL Rewrite]
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
 [Rule]
 # > Youtube
 DOMAIN-SUFFIX,azabu-u.ac.jp,REJECT
@@ -19,3 +13,14 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 DOMAIN-SUFFIX,m-78.jp,REJECT
 DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
+[URL Rewrite]
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
+[Script]
+http-request ^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A) script-path=https://choler.github.io/Surge/Script/YouTube.js, requires-body=true, timeout=10, tag=去广告_YouTube
+[MITM]
+hostname = %APPEND% *.googlevideo.com

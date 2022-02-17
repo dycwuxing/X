@@ -4,10 +4,21 @@
 [URL Rewrite]
 (^https?:\/\/(?!redirector)[\w-]+\.googlevideo\.com\/((?!dclk_video_ads).)+)(ctier=L)(&.+) $1$3 302
 ^https?:\/\/[\w-]+\.googlevideo\.com\/((?!(dclk_video_ads|videoplayback)).)+&(oad|ctier) - reject
+^https?:\/\/.+?\.googlevideo\.com\/ptracking\?pltype=adhost - reject
 
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
-^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
+^https?:\/\/.+?\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/.+?\.youtube\.com\/get_midroll - reject
+^https?:\/\/.+?\.youtube\.com\/pagead\/ - reject
+^https?:\/\/.+?\.youtube\.com\/ptracking\? - reject
+
+^https?:\/\/m\.youtube\.com\/_get_ads - reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/watchtime?adformat - reject
+^https?:\/\/s\.youtube.com/api/stats/qoe?.*adformat= - reject
+
+^https?:\/\/youtubei\.googleapis\.com/.+?ad_break - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+?ad_ - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+?log_ - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\/ad_ - reject
 
 [MITM]
-hostname = *.googlevideo.com,www.youtube.com,s.youtube.com
+hostname = *.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com,

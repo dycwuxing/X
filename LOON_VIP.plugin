@@ -5,7 +5,7 @@
 
 
 [MITM]
-hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, vip1.kuwo.cn, p.du.163.com, vsco.co, user*.zymk.cn, vni.kwaiying.com, *.my10api.com, www.luqijianggushi.com, account.wps.cn, origin-prod-phoenix.jibjab.com, api.bjxkhc.com, xy-viva.kakalili.com, ap*.intsig.net, m*.bybutter.com, api.vuevideo.net, api.picsart.c*, ios.fuliapps.com, apple.fuliapps.com, *.pipiapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, trade-acs.m.taobao.com, api.m.jd.com, ios*.prod.ftl.netflix.com, api.revenuecat.com, pan.baidu.com, bmall.camera360.com, api.polaxiong.com,,biz.caiyunapp.com,spclient.wg.spotify.com,api.feidee.net,userapi.feidee.net,tg.feidee.com,community.feidee.com,
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, vip1.kuwo.cn, p.du.163.com, vsco.co, user*.zymk.cn, vni.kwaiying.com, *.my10api.com, www.luqijianggushi.com, account.wps.cn, origin-prod-phoenix.jibjab.com, api.bjxkhc.com, xy-viva.kakalili.com, ap*.intsig.net, m*.bybutter.com, api.vuevideo.net, api.picsart.c*, ios.fuliapps.com, apple.fuliapps.com, *.pipiapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, trade-acs.m.taobao.com, api.m.jd.com, ios*.prod.ftl.netflix.com, api.revenuecat.com, pan.baidu.com, bmall.camera360.com, api.polaxiong.com,,biz.caiyunapp.com,spclient.wg.spotify.com,api.feidee.net,userapi.feidee.net,tg.feidee.com,community.feidee.com,aweme*.snssdk.com,
 
 [URL Rewrite]
 #随手记付费皮肤
@@ -18,6 +18,9 @@ hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, www.
 ^https?://p\.du\.163\.com/readtime/info.json reject
 
 [Script]
+#抖音去广告和水印
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/douyin.js, tag=VIP_抖音
+
 # Spotify-iOS15
 # 部分解锁premium,建议重新登录,音质不能设置为超高
 # 1. 搜索界面 歌单/歌曲可以随意切换完全播放  2. 音乐库已点赞歌曲随意切换完全播

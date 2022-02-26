@@ -1,5 +1,6 @@
 [MITM]
 hostname = *.googlevideo.com
+[URL Rewrite]
+ctier=[A-Z] url 302 ctier=A
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
 [Script]
-# > YouTube 
-http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js,tag=去广告_YouTube

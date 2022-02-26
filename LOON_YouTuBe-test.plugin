@@ -1,0 +1,5 @@
+[MITM]
+hostname = *.googlevideo
+[Rule]
+# > YouTube 
+http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js,tag=去广告_YouTube

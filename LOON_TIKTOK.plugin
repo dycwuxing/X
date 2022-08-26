@@ -2,7 +2,6 @@
 #!name= TikTok去水印
 
 [URL Rewrite]
-(?<=eme\/v)2(?=\/f\w{2}d\/\?.*) 1 302
 (.*video_id=\w{32})(.*watermark=)(.*) $1 302
 
 [Script]

@@ -1,3 +1,27 @@
+/***********************************
+
+> 應用名稱：pixiv 去广告
+> 軟件版本：7.14.9
+> 下載地址：https://apps.apple.com/us/app/id337248563
+> 腳本作者：Cuttlefish
+> 微信賬號：墨魚手記
+> 解鎖說明：解鎖高級會員權限
+> 更新時間：2022-05-19
+> 通知頻道：https://t.me/ddgksf2021
+> 問題反饋：https://t.me/ddgksf2013_bot
+> 特別說明：⛔⛔⛔
+            本腳本僅供學習交流使用，禁止轉載售賣
+            ⛔⛔⛔
+
+[rewrite_local]
+
+# ～ Pixiv去除广告（2022-05-19）@ddgksf2013
+^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/pixivpro.js
+
+[mitm] 
+
+hostname=oauth.secure.pixiv.net
+
 ***********************************/
 
 

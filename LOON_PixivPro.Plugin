@@ -5,4 +5,4 @@
 [MITM]
 hostname=oauth.secure.pixiv.net
 [Script]
-http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) requires-body=1,script-path=https://raw.githubusercontent.com/dycwuxing/X/main/LOON_PixivPro.js
+http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) requires-body=1,script-path=PixivPro.js

@@ -1,0 +1,36 @@
+########################################
+#应用名称：  Youtube Block AD
+#软件版本：  V17.40.5
+#脚本作者：  DivineEngine,app2smile,Maasea,ddgksf2013
+#更新时间：  2022-10-19
+#使用说明：  用于视频广告，首页广告，播放页列表广告及贴片广告，不适用允许 UDP 转发的节点及 Premium
+#通知频道：  https://t.me/ddgksf2021
+#原始仓库：  https://github.com/DivineEngine
+#原始仓库：  https://github.com/Maasea
+#原始仓库：  https://github.com/app2smile
+#脚本地址：  https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/YoutubeAds.conf
+########################################
+#!name = YouTube去广告
+#!desc = 采用新的方法过滤视频广告和瀑布流广告。YouTube版本号需高于15.26.4，不适Premium订阅用户使用。
+#!openUrl = https://github.com/dycwuxing/X/edit/main/LOON_YouTuBe-test.plugin
+#!author = DIY
+#!homepage = https://github.com/dycwuxing/X/edit/main/LOON_YouTuBe-test.plugin
+#!icon = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/60px/YouTube.png
+
+[MITM]
+hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+
+[Script]
+# ======= 视频广告 ======= #
+http-response ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js, requires-body=true, binary-body-mode=true, timeout=10, tag=YouTube视频去广告
+# ======= 贴片广告 ======= #
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js, requires-body=true, binary-body-mode=true, timeout=10, tag=YouTube贴片去广告
+# ======= 首页瀑布流及播放页广告 ======= #
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\? script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js, requires-body=true, binary-body-mode=true, timeout=10, tag=YouTube首页去广告
+
+[Rule]
+# ======= 通用请求 ======= #
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject

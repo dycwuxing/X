@@ -28,4 +28,4 @@ $done({ body: JSON.stringify(ddgksf2013) });
 [mitm]
 hostname=api.aliyundrive.com
 [Script]
-http-response ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/alidrive.js, requires-body=true, binary-body-mode=true, timeout=10,tag=阿里云盘首页优化
+http-response ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/alidrive.js, requires-body=true, binary-body-mode=true, timeout=10,tag=阿里云盘首页优化

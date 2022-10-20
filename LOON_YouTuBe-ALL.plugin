@@ -30,7 +30,7 @@ http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\
 
 [Rule]
 # ======= 通用请求 ======= #
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break,REJECT
+URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads,REJECT
+URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking),REJECT
+URL-REGEX,^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext,REJECT

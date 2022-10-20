@@ -1,5 +1,9 @@
 #!name=Block YouTube(<=16.43.2) Advertising
 #!desc=仅用于视频广告，不适用允许 UDP 转发的节点及 Premium
+#!openUrl = https://github.com/dycwuxing/X/edit/main/LOON_YouTuBe.plugin
+#!author = DIY
+#!homepage = https://github.com/dycwuxing/X/edit/main/LOON_YouTuBe.plugin
+#!icon = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/60px/YouTube.png
 #原地址:https://github.com/DivineEngine/Profiles/blob/master/Surge/Module/Block/YouTubeAds.sgmodule
 #原地址:https://raw.githubusercontent.com/cjf0423/Surge/0a22c6d981500e58759a9a0dfafaac0ed7a6b627/Module/YouTubeAD.sgmodule
 [MITM]

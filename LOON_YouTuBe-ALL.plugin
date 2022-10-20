@@ -22,7 +22,8 @@ hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.yout
 
 [Script]
 # ======= 视频广告 ======= #
-http-request ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js, requires-body=false, timeout=10, tag=YouTube视频去广告
+#http-request ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-fake.js, requires-body=false, timeout=10, tag=YouTube视频去广告
+http-request ^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A) script-path=https://choler.github.io/Surge/Script/YouTube.js, requires-body=true, timeout=10, tag=去广告_YouTube
 # ======= 贴片广告 ======= #
 http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js, requires-body=true, binary-body-mode=true, timeout=10, tag=YouTube贴片去广告
 # ======= 首页瀑布流及播放页广告 ======= #
@@ -30,7 +31,17 @@ http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next)\
 
 [Rule]
 # ======= 通用请求 ======= #
+URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad, REJECT
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break,REJECT
 URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads,REJECT
 URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking),REJECT
 URL-REGEX,^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext,REJECT
+[URL Rewrite]
+ctier=[A-Z] citer=A 302
+(^https?:\/\/(?!redirector)[\w-]+\.googlevideo\.com\/((?!dclk_video_ads).)+)(ctier=L)(&.+) $1$3 302
+^https?:\/\/[\w-]+\.googlevideo\.com\/((?!(dclk_video_ads|videoplayback)).)+&(oad|ctier) - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
+^https?:\/\/(www|s)\.youtube.com/api/stats/qoe?.*adformat= - reject

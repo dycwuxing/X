@@ -20,7 +20,7 @@ if (ddgksf2013.result) {
 $done({ body: JSON.stringify(ddgksf2013) });
 ***********************************/
 #!name= 阿里云盘首页优化
-#!openUrl = https://github.com/dycwuxing/X/edit/main/LOON_ALYP.plugin
+#!openUrl = 
 #!author = DIY
 #!homepage = https://github.com/dycwuxing/X/edit/main/LOON_ALYP.plugin
 
@@ -28,4 +28,4 @@ $done({ body: JSON.stringify(ddgksf2013) });
 [mitm]
 hostname=api.aliyundrive.com
 [Script]
-http-response ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/raw/master/Script/alidrive.js,requires-body=1,max-size=0,tag=阿里云盘首页优化
+http-request ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/raw/master/Script/alidrive.js, requires-body=true, timeout=10, tag=阿里云盘首页优化

@@ -1,0 +1,12 @@
+#!name = 京东比价
+#!desc = 需要配合boxjs_Githubdulong_京粉转链填写JD_COOKIE
+#!openUrl = 
+#!author = toulanboy
+#!homepage = https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
+#!icon = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/80px/JD.png
+
+[Script]
+http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) requires-body=1,script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js, tag=京粉转链
+  
+[MITM]
+hostname = api.m.jd.com

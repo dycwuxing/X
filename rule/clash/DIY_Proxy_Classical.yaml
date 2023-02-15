@@ -2,7 +2,6 @@ payload:
   - DOMAIN-SUFFIX,*.cyou
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net
-  - DOMAIN-SUFFIX,metacubex.one
   - DOMAIN-SUFFIX,kodinerds.net
   - DOMAIN-KEYWORD,github.com
   - DOMAIN-KEYWORD,githubusercontent.com

@@ -1,4 +1,4 @@
 payload:
-  - DOMAIN,anren.live,📺国外媒体
-  - DOMAIN,play-live.ifeng.com,📺国外媒体
-  - DOMAIN-KEYWORD,iyf.tv,📺国外媒体
+  - DOMAIN,anren.live
+  - DOMAIN,play-live.ifeng.com
+  - DOMAIN-KEYWORD,iyf.tv

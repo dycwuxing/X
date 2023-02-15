@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN-KEYWORD,speedtest
   - DOMAIN-KEYWORD,speedtest.net
   - DOMAIN-KEYWORD,ooklaserver.net
   - DOMAIN-KEYWORD,fast.com

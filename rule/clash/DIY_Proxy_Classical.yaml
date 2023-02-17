@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net
   - DOMAIN-SUFFIX,kodinerds.net
+  - DOMAIN-SUFFIX,u8899.de
   - DOMAIN-KEYWORD,github.com
   - DOMAIN-KEYWORD,githubusercontent.com
   - DOMAIN-KEYWORD,ipify.org

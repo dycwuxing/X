@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,dnslytics.net
   - DOMAIN-SUFFIX,kodinerds.net
   - DOMAIN-SUFFIX,u8899.de
+  - DOMAIN-SUFFIX,vpsxb.net
   - DOMAIN-KEYWORD,github.com
   - DOMAIN-KEYWORD,githubusercontent.com
   - DOMAIN-KEYWORD,ipify.org

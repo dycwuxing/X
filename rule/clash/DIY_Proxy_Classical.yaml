@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,u8899.de
   - DOMAIN-SUFFIX,vpsxb.net
   - DOMAIN-SUFFIX,kodi.tv
+  - DOMAIN-SUFFIX,garr.it
   - DOMAIN-KEYWORD,github.com
   - DOMAIN-KEYWORD,githubusercontent.com
   - DOMAIN-KEYWORD,ipify.org

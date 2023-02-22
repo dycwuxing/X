@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,garr.it
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,qbittorrent.org
+  - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-KEYWORD,github.com
   - DOMAIN-KEYWORD,githubusercontent.com
   - DOMAIN-KEYWORD,ipify.org

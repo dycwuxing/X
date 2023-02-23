@@ -1,6 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,hostloc.com
+  - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,clash.metacubex.one
   - DOMAIN,weixin.midea.com
-  - DOMAIN,bilibili.com

@@ -4,6 +4,9 @@ payload:
   - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,events.data.microsoft.com
+  - DOMAIN-SUFFIX,ws.infinitynewtab.com
+  - DOMAIN-SUFFIX,setup.icloud.com
+  - DOMAIN-KEYWORD,quota.icloud.com.cn
   - DOMAIN,yacd.haishan.me
   - DOMAIN,clash.metacubex.one
   - DOMAIN,weixin.midea.com

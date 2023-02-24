@@ -10,6 +10,10 @@ payload:
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,glados-config.com #机场订阅域名
+  - DOMAIN-SUFFIX,pengui.link #机场订阅域名
+  - DOMAIN-SUFFIX,starsea.cyou #机场订阅域名
+  - DOMAIN-SUFFIX,xn--4gq62f52gdss.com #机场订阅域名
   - DOMAIN-KEYWORD,github.com
   - DOMAIN-KEYWORD,githubusercontent.com
   - DOMAIN-KEYWORD,ipify.org

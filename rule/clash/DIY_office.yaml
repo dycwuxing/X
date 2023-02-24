@@ -1,12 +1,13 @@
 payload:
   - DOMAIN-SUFFIX,hostloc.com
   - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,events.data.microsoft.com
+  - DOMAIN-SUFFIX,settings-win.data.microsoft.com
   - DOMAIN-SUFFIX,officeapps.live.com
   - DOMAIN-SUFFIX,ws.infinitynewtab.com
   - DOMAIN-SUFFIX,setup.icloud.com
+  - DOMAIN-SUFFIX,u-tools.cn
   - DOMAIN-KEYWORD,quota.icloud.com.cn
   - DOMAIN,yacd.haishan.me
   - DOMAIN,clash.metacubex.one

@@ -8,5 +8,6 @@ payload:
   - DOMAIN-KEYWORD,safetelescope.cc
   - DOMAIN-KEYWORD,cctelescope.xyz
   - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,app.plex.tv
   - DOMAIN,cdn.hklive.tv
   - DOMAIN-KEYWORD,arp220.us

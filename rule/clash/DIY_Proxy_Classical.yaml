@@ -1,6 +1,6 @@
 payload:
-  - IP-CIDR,199.5.26.46
-  - IP-CIDR,183.92.68.79
+  - IP-CIDR,199.5.26.46/32
+  - IP-CIDR,183.92.68.79/32
   - DOMAIN-SUFFIX,*.cyou
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net

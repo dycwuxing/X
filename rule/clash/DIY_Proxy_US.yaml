@@ -1,3 +1,6 @@
 payload:
   - DOMAIN-KEYWORD,apkmirror
-  - DOMAIN-KEYWORD,dyc001.cf
+  - DOMAIN,oraclezp02.dyc001.cf
+  - DOMAIN,oracleyyn02.dyc001.cf
+  - DOMAIN,oracleyyn01.dycwuxing.ddns.info
+  - DOMAIN,oracleyyn02.dycwuxing.ddns.info

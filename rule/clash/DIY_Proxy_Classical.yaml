@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,hostloc.com
   - DOMAIN-SUFFIX,yiyuan.cyou #机场订阅域名
   #- DOMAIN-SUFFIX,glados-config.com #机场订阅域名
   #- DOMAIN-SUFFIX,pengui.link #机场订阅域名

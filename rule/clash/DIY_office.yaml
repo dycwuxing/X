@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,hostloc.com
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,ws.infinitynewtab.com
   - DOMAIN-SUFFIX,setup.icloud.com

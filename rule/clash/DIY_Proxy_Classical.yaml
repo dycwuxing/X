@@ -1,6 +1,7 @@
 payload:
   - IP-CIDR,199.5.26.46/32
   - IP-CIDR,183.92.68.79/32
+  - DOMAIN,www.hicairo.com
   - DOMAIN-SUFFIX,*.cyou
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net
@@ -13,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,hostloc.com
+  - DOMAIN-SUFFIX,buliang0.cf
   - DOMAIN-SUFFIX,yiyuan.cyou #机场订阅域名
   #- DOMAIN-SUFFIX,glados-config.com #机场订阅域名
   #- DOMAIN-SUFFIX,pengui.link #机场订阅域名

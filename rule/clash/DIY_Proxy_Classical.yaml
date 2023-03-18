@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,hostloc.com
   - DOMAIN-SUFFIX,buliang0.cf
+  - DOMAIN-SUFFIX,cnjoel.com
   - DOMAIN-SUFFIX,yiyuan.cyou #机场订阅域名
   #- DOMAIN-SUFFIX,glados-config.com #机场订阅域名
   #- DOMAIN-SUFFIX,pengui.link #机场订阅域名

@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,hostloc.com
   - DOMAIN-SUFFIX,buliang0.cf
   - DOMAIN-SUFFIX,cnjoel.com
+  - DOMAIN-SUFFIX,keeflys.com
   - DOMAIN-SUFFIX,emotn.com
   - DOMAIN-SUFFIX,yiyuan.cyou #机场订阅域名
   #- DOMAIN-SUFFIX,glados-config.com #机场订阅域名
@@ -25,7 +26,6 @@ payload:
   - DOMAIN-KEYWORD,github.com
   - DOMAIN-KEYWORD,githubusercontent.com
   - DOMAIN-KEYWORD,ipify.org
-  - DOMAIN-KEYWORD,keeflys.com
   - DOMAIN-KEYWORD,rarbggo
   - DOMAIN-KEYWORD,uoc.gr
   - DOMAIN-KEYWORD,yandex.*

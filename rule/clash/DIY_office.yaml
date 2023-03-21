@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,ws.infinitynewtab.com
   - DOMAIN-SUFFIX,setup.icloud.com
   - DOMAIN-SUFFIX,u-tools.cn

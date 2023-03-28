@@ -4,5 +4,5 @@ payload:
   - DOMAIN-KEYWORD,iyf.tv
   - DOMAIN-KEYWORD,wallhaven
   - DOMAIN-KEYWORD,translate.google.com
-  - DOMAIN-KEYWORD,api.ulivetv.net #星视界
-  - DOMAIN-KEYWORD,ali.ts.52glb.com #星视界
+  - DOMAIN-KEYWORD,ulivetv.net #星视界
+  - DOMAIN-KEYWORD,52glb.com #星视界

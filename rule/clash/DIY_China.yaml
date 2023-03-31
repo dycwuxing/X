@@ -1,6 +1,7 @@
 payload:
   - DOMAIN,cdn.hklive.tv
   - DOMAIN,time.apple.com
+  - DOMAIN,xinruimz-isv.isvjcloud.com
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,app.plex.tv
   - DOMAIN-SUFFIX,ocxme.com

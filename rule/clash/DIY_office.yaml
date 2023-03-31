@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,setup.icloud.com
   - DOMAIN-SUFFIX,u-tools.cn
   - DOMAIN-KEYWORD,quota.icloud.com.cn
+  - DOMAIN-KEYWORD,ngabbs.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,weixin.midea.com
   - DOMAIN,api.cognitive.microsofttranslator.com

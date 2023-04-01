@@ -5,6 +5,8 @@ payload:
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,app.plex.tv
   - DOMAIN-SUFFIX,ocxme.com
+  - DOMAIN-SUFFIX,ibiqu.net
+  - DOMAIN-SUFFIX,xiashuzhan.com
   - DOMAIN-KEYWORD,catcdndev.tk
   - DOMAIN-KEYWORD,gladns.com
   - DOMAIN-KEYWORD,entry.srthdw.art

@@ -1,4 +1,9 @@
 payload:
+  - IP-CIDR,146.56.44.0/32 #oracle 首尔01
+  - IP-CIDR,146.56.152.135/32 #oracle 首尔02
+  - IP-CIDR,152.69.204.15/32 #oracle 大阪02
+  - IP-CIDR,129.146.169.208/32 #oracle 凤凰城01
+  - IP-CIDR,129.146.92.151/32 #oracle 凤凰城02
   - DOMAIN,cdn.hklive.tv
   - DOMAIN,time.apple.com
   - DOMAIN,xinruimz-isv.isvjcloud.com

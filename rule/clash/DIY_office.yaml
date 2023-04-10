@@ -2,6 +2,7 @@ payload:
   - DOMAIN-SUFFIX,ws.infinitynewtab.com
   - DOMAIN-SUFFIX,setup.icloud.com
   - DOMAIN-SUFFIX,u-tools.cn
+  - DOMAIN-SUFFIX,kuwo.cn #酷我音乐
   - DOMAIN-KEYWORD,quota.icloud.com.cn
   - DOMAIN-KEYWORD,ngabbs.com
   - DOMAIN,yacd.haishan.me

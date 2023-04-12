@@ -1,18 +1,28 @@
-/*
- *
- *
-脚本功能：喜马拉雅🔓
-下载地址：商店下载
-脚本作者：King
-更新时间：2022.2.28
-脚本发布：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_007
-使用声明：⚠️此脚本仅供学习与交流，
-        请勿转载与贩卖！⚠️⚠️⚠️
-********************************
+#!name=xmly
+#!desc=xmly pro
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/anker1209/icon/main/xmly.png
+#脚本发布：https://t.me/yqc_123
+#问题反馈：https://t.me/yqc_007
+#https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/xmly.js
+
+[Rewrite]
+#喜马拉雅去广告
+^http[s]?:\/\/openapi\.mysteel\.com/v5/getAdv.htm - reject
+^http[s]?.+ulogs.umeng.com - reject
+^http[s]?.+gslbali.ximalaya.com - reject
+^http[s]?.+adse.ximalaya.com - reject
+^http[s]?.+gslbtx.ximalaya.com - reject
+^http[s]?.+location.ximalaya.com - reject
+^http[s]?.+passport.ximalaya.com - reject
+^http[s]?.+adbehavior.ximalaya.com - reject
+^http[s]?.+ad.ximalaya.com - reject
+^http[s]?.+audid-api.taobao.com - reject
 
 [mitm]
 hostname = *.*xima*.*, *.xmcdn.com,
 
 [Script]
-http-request ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/xmly.js
+#这个我不会写....http-request ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/xmly.js
+http-request ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))\/mobile-playpage\/track\/v3\/baseInfo\/ts script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/xmly05.js, timeout=60
+http-response ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)).*\/(playpage\/tabs\/v2|v1\/album\/track\/ts|v1\/album\/price|v2\/homePage|business-vip-presale-mobile-web\/page\/ts|vip\/v1\/recommand|track\/v3\/baseInfo|v1\/module\/data\/dynamic|basicInfo\/dynamic\/ts).*$ script-path=https://raw.githubusercontent.com/WeiRen0/NewFree/main/XMVIP05.js, requires-body=true, timeout=60

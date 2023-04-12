@@ -11,6 +11,7 @@ payload:
   - DOMAIN,af.alicdn.com #阿里云
   - DOMAIN,aeu.alicdn.com #阿里云
   - DOMAIN,open.aliyundrive.com #阿里云
+  - DOMAIN,ipv6.lookup.test-ipv6.com  #APTV检测
   - DOMAIN,cdn.hklive.tv
   - DOMAIN,time.apple.com
   - DOMAIN,xinruimz-isv.isvjcloud.com

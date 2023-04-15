@@ -24,8 +24,8 @@ payload:
   #- DOMAIN-SUFFIX,pengui.link #机场订阅域名
   #- DOMAIN-SUFFIX,starsea.cyou #机场订阅域名
   #- DOMAIN-SUFFIX,xn--4gq62f52gdss.com #机场订阅域名
-  - DOMAIN-KEYWORD,github.com
-  - DOMAIN-KEYWORD,githubusercontent.com
+  - DOMAIN-KEYWORD,github.com #github
+  - DOMAIN-KEYWORD,githubusercontent.com #github
   - DOMAIN-KEYWORD,ipify.org
   - DOMAIN-KEYWORD,rarbggo
   - DOMAIN-KEYWORD,uoc.gr

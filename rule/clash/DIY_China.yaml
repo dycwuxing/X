@@ -17,7 +17,8 @@ payload:
   - DOMAIN,live.aptvapp.com #APTV
   - DOMAIN,ipv6.lookup.test-ipv6.com #APTV
   - DOMAIN,live.fanmingming.com
-  - DOMAIN,epg.112114.xyz
+  - DOMAIN,epg.112114.xyz #EPG
+  - DOMAIN-SUFFIX,adultiptv.net.com #Adult
   - DOMAIN-SUFFIX,bigdatacloud.net #anygo定位软件
   - DOMAIN-SUFFIX,zimuku.org #字幕库
   - DOMAIN-SUFFIX,plex.tv

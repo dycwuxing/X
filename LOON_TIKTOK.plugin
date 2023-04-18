@@ -1,7 +1,7 @@
 # > TikTok 去广告&水印  Loon版
 #!name= TikTok去水印
 
-[URL Rewrite]
+[Rewrite]
 (.*video_id=\w{32})(.*watermark=)(.*) $1 302
 
 [Script]

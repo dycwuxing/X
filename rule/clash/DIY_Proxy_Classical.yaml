@@ -2,7 +2,7 @@ payload:
   - IP-CIDR,199.5.26.46/32
   - IP-CIDR,183.92.68.79/32
   - IP-CIDR,142.251.2.188/32 #ugools总是访问5228端口,疑google推送
-  - IP-CIDR,12607:f8b0:4005:80f::200e/128
+  - IP-CIDR,2607:f8b0:4005:80f::200e/128
   - DOMAIN,www.hicairo.com
   - DOMAIN-SUFFIX,*.cyou
   - DOMAIN-SUFFIX,ideame.top

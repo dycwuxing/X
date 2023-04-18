@@ -1,7 +1,7 @@
 # > 抖音 去广告&水印  Loon版
 #!name= 抖音去水印
 
-[URL Rewrite]
+[Rewrite]
 
 ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/feed\/ https://aweme.snssdk.com/aweme/v1/feed/ header
 ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/aweme\/post\/ https://aweme.snssdk.com/aweme/v1/aweme/post/ header

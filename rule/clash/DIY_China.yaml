@@ -18,6 +18,9 @@ payload:
   - DOMAIN,ipv6.lookup.test-ipv6.com #APTV
   - DOMAIN,live.fanmingming.com
   - DOMAIN,epg.112114.xyz #EPG
+  - DOMAIN,raw.gitmirror.com
+  - DOMAIN,anti-ad.net #AD
+  - DOMAIN,adaway.org #AD
   - DOMAIN-SUFFIX,adultiptv.net.com #Adult
   - DOMAIN-SUFFIX,bigdatacloud.net #anygo定位软件
   - DOMAIN-SUFFIX,zimuku.org #字幕库

@@ -6,6 +6,7 @@ payload:
   - DOMAIN,www.hicairo.com
   - DOMAIN-SUFFIX,xn--4gq62f52gdss.com #一元机场
   - DOMAIN-SUFFIX,tly13.com #tly机场
+  - DOMAIN-SUFFIX,tly71.com #tly机场
   - DOMAIN-SUFFIX,*.cyou
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net

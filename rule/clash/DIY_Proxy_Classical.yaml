@@ -8,7 +8,6 @@ payload:
   - DOMAIN-SUFFIX,tly13.com #tly机场
   - DOMAIN-SUFFIX,tly71.com #tly机场
   - DOMAIN-SUFFIX,*.cyou
-  - DOMAIN-SUFFIX,129888.xyz #nark
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net
   - DOMAIN-SUFFIX,kodinerds.net

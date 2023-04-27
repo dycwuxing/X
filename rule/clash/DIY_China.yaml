@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,ocxme.com
   - DOMAIN-SUFFIX,ibiqu.net
   - DOMAIN-SUFFIX,xiashuzhan.com
+  - DOMAIN-SUFFIX,teracloud.jp #日本无限云
   - DOMAIN-KEYWORD,catcdndev.tk
   - DOMAIN-KEYWORD,gladns.com
   - DOMAIN-KEYWORD,entry.srthdw.art

@@ -22,7 +22,6 @@ payload:
   - DOMAIN,time.apple.com
   - DOMAIN,xinruimz-isv.isvjcloud.com
   - DOMAIN,live.aptvapp.com #APTV
-  - DOMAIN,ipv6.lookup.test-ipv6.com #APTV
   - DOMAIN,live.fanmingming.com
   - DOMAIN,epg.112114.xyz #EPG
   - DOMAIN,raw.gitmirror.com
@@ -38,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,ibiqu.net
   - DOMAIN-SUFFIX,xiashuzhan.com
   - DOMAIN-SUFFIX,teracloud.jp #日本无限云
+  - DOMAIN-SUFFIX,test-ipv6.com #APTV IPV6检测
   - DOMAIN-KEYWORD,catcdndev.tk
   - DOMAIN-KEYWORD,gladns.com
   - DOMAIN-KEYWORD,entry.srthdw.art

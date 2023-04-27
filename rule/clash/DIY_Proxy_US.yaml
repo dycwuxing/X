@@ -1,11 +1,6 @@
 payload:
   - DOMAIN-KEYWORD,apkmirror
   - DOMAIN-SUFFIX,www.avsforum.com
-  - DOMAIN,oraclezp02.dyc001.cf
-  - DOMAIN,oracleyyn02.dyc001.cf
-  - DOMAIN,oracle01.dycwuxing.ddns.info
-  - DOMAIN,oracle02.dycwuxing.ddns.info
-  - DOMAIN,oracleyyn01.dycwuxing.ddns.info
-  - DOMAIN,oracleyyn02.dycwuxing.ddns.info
   - DOMAIN,chat.openai.com
   - DOMAIN-SUFFIX,mp3quack.app
+  - DOMAIN-SUFFIX,bt4g.org

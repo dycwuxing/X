@@ -38,6 +38,8 @@ payload:
   - DOMAIN-SUFFIX,xiashuzhan.com
   - DOMAIN-SUFFIX,teracloud.jp #日本无限云
   - DOMAIN-SUFFIX,test-ipv6.com #APTV IPV6检测
+  - DOMAIN-SUFFIX,msftconnecttest.com #微软联网
+  - DOMAIN-SUFFIX,msftncsi.com #微软联网
   - DOMAIN-KEYWORD,catcdndev.tk
   - DOMAIN-KEYWORD,gladns.com
   - DOMAIN-KEYWORD,entry.srthdw.art

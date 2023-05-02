@@ -30,7 +30,6 @@ payload:
   #- DOMAIN-SUFFIX,starsea.cyou #机场订阅域名
   #- DOMAIN-SUFFIX,xn--4gq62f52gdss.com #机场订阅域名
   - DOMAIN-KEYWORD,ipify.org
-  - DOMAIN-KEYWORD,rarbggo
   - DOMAIN-KEYWORD,uoc.gr
   - DOMAIN-KEYWORD,yandex.*
   - DOMAIN-KEYWORD,rwth-aachen

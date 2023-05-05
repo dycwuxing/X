@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN,api-jooxtt.sanook.com
+  - DOMAIN-SUFFIX,i-joox.com
+  - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-KEYWORD,jooxweb-api
+  - PROCESS-NAME,com.tencent.ibg.joox

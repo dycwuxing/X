@@ -2,4 +2,5 @@ payload:
   - DOMAIN-KEYWORD,apkmirror
   - DOMAIN-SUFFIX,www.avsforum.com
   - DOMAIN,chat.openai.com
-  - DOMAIN-SUFFIX,mp3quack.app
+  - DOMAIN-SUFFIX,mp3quack.app #mp3quack
+  - DOMAIN-KEYWORD,ytmp3cut #mp3quack

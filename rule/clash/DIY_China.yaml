@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,dyc001.cf
   - DOMAIN-SUFFIX,dyc001.tk
   - DOMAIN-SUFFIX,dycwuxing.ddns.info
+  - DOMAIN-SUFFIX,pqjc.site #赔钱机场订阅
   - DOMAIN,dycsolomon.dynv6.net #DDNS_IPV6
   - DOMAIN,clash.metacubex.one #clash面板
   - DOMAIN,yacd.metacubex.one #clash面板

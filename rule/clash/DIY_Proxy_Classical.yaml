@@ -31,9 +31,9 @@ payload:
   #- DOMAIN-SUFFIX,xn--4gq62f52gdss.com #机场订阅域名
   - DOMAIN-KEYWORD,ipify.org
   - DOMAIN-KEYWORD,uoc.gr
-  - DOMAIN-KEYWORD,rargb
   - DOMAIN-KEYWORD,yandex.*
   - DOMAIN-KEYWORD,rwth-aachen
   - DOMAIN-KEYWORD,mirror.karneval
   - DOMAIN-KEYWORD,starsea
   - DOMAIN-KEYWORD,kodi
+  - DOMAIN-KEYWORD,rarbg #BT网站

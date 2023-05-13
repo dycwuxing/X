@@ -29,9 +29,9 @@ payload:
   - DOMAIN,anti-ad.net #AD
   - DOMAIN,adaway.org #AD
   - DOMAIN,zmk.pw #字幕库
+  - DOMAIN,zimuku.org #字幕库
   - DOMAIN-SUFFIX,adultiptv.net.com #Adult
   - DOMAIN-SUFFIX,bigdatacloud.net #anygo定位软件
-  - DOMAIN-SUFFIX,zimuku.org #字幕库
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,app.plex.tv
   - DOMAIN-SUFFIX,ocxme.com

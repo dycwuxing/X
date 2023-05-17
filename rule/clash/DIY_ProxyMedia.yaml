@@ -1,4 +1,5 @@
 payload:
+  - PROCESS-NAME,Microsoft Update Assistant #MAC微软更新程序
   - DOMAIN-SUFFIX,github.com #github
   - DOMAIN-SUFFIX,githubusercontent.com #github
   - DOMAIN-KEYWORD,github.com #github

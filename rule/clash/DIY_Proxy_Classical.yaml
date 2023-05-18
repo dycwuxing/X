@@ -6,6 +6,7 @@ payload:
   - DOMAIN,www.hicairo.com
   - DOMAIN,so.zimuku.org #字幕库
   - DOMAIN-SUFFIX,subhd.tv #字库SUBHD
+  - DOMAIN-SUFFIX,subhdtw.com #字库SUBHD
   - DOMAIN,api.ttt.sh #IP接口
   - DOMAIN-SUFFIX,xn--4gq62f52gdss.com #一元机场
   - DOMAIN-SUFFIX,tly13.com #tly机场

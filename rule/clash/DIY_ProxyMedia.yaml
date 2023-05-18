@@ -1,5 +1,8 @@
 payload:
   - PROCESS-NAME,Microsoft Update Assistant #MAC微软更新程序
+  - PROCESS-NAME,OfficeClickToRun.exe #WIN_OFFICE检查更新
+  - PROCESS-NAME,backgroundTaskHost.exe #WIN_OFFICE更新后台加速
+  - PROCESS-NAME,WinStore.App.exe #WIN_STORE商店
   - DOMAIN-SUFFIX,github.com #github
   - DOMAIN-SUFFIX,githubusercontent.com #github
   - DOMAIN-KEYWORD,github.com #github

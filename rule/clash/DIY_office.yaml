@@ -1,4 +1,5 @@
 payload:
+  - PROCESS-NAME,RaiDrive.exe #WIN_RaiDrive
   - DOMAIN-SUFFIX,ws.infinitynewtab.com
   - DOMAIN-SUFFIX,setup.icloud.com
   - DOMAIN-SUFFIX,u-tools.cn

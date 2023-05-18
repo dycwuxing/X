@@ -3,7 +3,7 @@ payload:
   - DOMAIN-SUFFIX,setup.icloud.com
   - DOMAIN-SUFFIX,u-tools.cn
   - DOMAIN-SUFFIX,kuwo.cn #酷我音乐
-  - DOMAIN-SUFFIX,klnzwfw.gov.cn #辽宁政务服务网
+  - DOMAIN-SUFFIX,lnzwfw.gov.cn #辽宁政务服务网
   - DOMAIN-KEYWORD,quota.icloud.com.cn
   - DOMAIN-KEYWORD,ngabbs.com
   - DOMAIN,yacd.haishan.me

@@ -1,5 +1,5 @@
 payload:
-  - PROCESS-NAME,RaiDrive.exe #WIN_RaiDrive
+#  - PROCESS-NAME,RaiDrive.exe #WIN_RaiDrive 软件可以直接设置代理
   - DOMAIN-SUFFIX,ws.infinitynewtab.com
   - DOMAIN-SUFFIX,setup.icloud.com
   - DOMAIN-SUFFIX,u-tools.cn

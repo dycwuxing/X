@@ -30,6 +30,7 @@ payload:
   - DOMAIN,adaway.org #AD
   - DOMAIN,zmk.pw #字幕库
   - DOMAIN,zimuku.org #字幕库
+  - DOMAIN,m.ximalaya.com #喜马拉雅测试
   - DOMAIN-SUFFIX,adultiptv.net.com #Adult
   - DOMAIN-SUFFIX,bigdatacloud.net #anygo定位软件
   - DOMAIN-SUFFIX,plex.tv

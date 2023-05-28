@@ -6,7 +6,7 @@ payload:
   - DOMAIN-SUFFIX,kuwo.cn #酷我音乐
   - DOMAIN-SUFFIX,lnzwfw.gov.cn #辽宁政务服务网
   - DOMAIN,zmk.pw #字幕库
-  - DOMAIN,zimuku.org #字幕库
+  - DOMAIN-SUFFIX,zimuku.org #字幕库
   - DOMAIN-KEYWORD,quota.icloud.com.cn
   - DOMAIN-KEYWORD,ngabbs.com
   - DOMAIN,yacd.haishan.me

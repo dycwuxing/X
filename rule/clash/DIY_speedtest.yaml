@@ -1,9 +1,13 @@
 payload:
   - DOMAIN,speed.dler.io
   - DOMAIN,down.sandai.net #迅雷网速检测
-  - DOMAIN-KEYWORD,speedtest
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,speedtest.net #speedtest
+  - DOMAIN-SUFFIX,ooklaserver.net #speedtest
+  - DOMAIN-SUFFIX,unicomspeedtest.com #speedtest
+  - DOMAIN-SUFFIX,tjtele.com #speedtest
+  - DOMAIN-SUFFIX,ioflood.com #speedtest
+  - DOMAIN-SUFFIX,orion.cloud #speedtest
+  - DOMAIN-KEYWORD,speedtest #speedtest
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-KEYWORD,fiber.google.com
   - DOMAIN-KEYWORD,speed.cloudflare.com

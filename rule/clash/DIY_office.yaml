@@ -10,10 +10,12 @@ payload:
   - DOMAIN-SUFFIX,subhd.tv #字幕库SUBHD
   - DOMAIN-SUFFIX,subhdtw.com #字幕库SUBHD
   - DOMAIN-SUFFIX,changeip.com #changeip
+  - DOMAIN-SUFFIX,gsxt.gov.cn
   - DOMAIN-KEYWORD,quota.icloud.com.cn
   - DOMAIN-KEYWORD,ngabbs.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,weixin.midea.com
   - DOMAIN,nga.178.com #NGA
   - DOMAIN,zhidao.baidu.com #百度知道
-  - DOMAIN,api.cognitive.microsofttranslator.com
+  - DOMAIN,api.cognitive.microsofttranslator.com #国家企业信息公示系统
+  

@@ -7,6 +7,9 @@ payload:
   - DOMAIN-SUFFIX,lnzwfw.gov.cn #辽宁政务服务网
   - DOMAIN,zmk.pw #字幕库
   - DOMAIN-SUFFIX,zimuku.org #字幕库
+  - DOMAIN-SUFFIX,subhd.tv #字幕库SUBHD
+  - DOMAIN-SUFFIX,subhdtw.com #字幕库SUBHD
+  - DOMAIN-SUFFIX,changeip.com #changeip
   - DOMAIN-KEYWORD,quota.icloud.com.cn
   - DOMAIN-KEYWORD,ngabbs.com
   - DOMAIN,yacd.haishan.me

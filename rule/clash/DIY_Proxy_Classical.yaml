@@ -28,7 +28,8 @@ payload:
   - DOMAIN-SUFFIX,emotn.com #EMOTN
   - DOMAIN-SUFFIX,keeflys.com #EMOTN
   - DOMAIN-SUFFIX,weesunday.com #EMOTN
-  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,v2ex.com #V2EX
+  - DOMAIN-SUFFIX,gcore.com #Gcore
   - DOMAIN-SUFFIX,yiyuan.cyou #机场订阅域名
   #- DOMAIN-SUFFIX,glados-config.com #机场订阅域名
   #- DOMAIN-SUFFIX,pengui.link #机场订阅域名

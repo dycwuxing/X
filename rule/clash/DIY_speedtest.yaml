@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,tjtele.com #speedtest
   - DOMAIN-SUFFIX,ioflood.com #speedtest
   - DOMAIN-SUFFIX,orion.cloud #speedtest
+  - DOMAIN-SUFFIX,cabospeed.com #speedtest
   - DOMAIN-KEYWORD,speedtest #speedtest
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-KEYWORD,fiber.google.com
@@ -14,4 +15,3 @@ payload:
   - DOMAIN-KEYWORD,cordcloud.speedtestcustom.com
   - DOMAIN-KEYWORD,ossweb-img.qq.com
   - DOMAIN-SUFFIX,laomoe.com
-  - DOMAIN-SUFFIX,tjtele.com

@@ -1,5 +1,11 @@
 payload:
+  - PROCESS-NAME,Paste
+  - PROCESS-NAME,Adobe Photoshop 2022
+  - PROCESS-NAME,AdobeCRDaemon
+  - PROCESS-NAME,AdobeIPCBroker
+  - PROCESS-NAME,Adobe Photoshop 2022 Networking 
   #finalshell
+  - PROCESS-NAME,FinalShell
   - IP-CIDR,58.247.214.47/32
   - DOMAIN-SUFFIX,updates-s3.binaryage.com
   - DOMAIN-SUFFIX,binaryage-leechgate.herokuapp.com

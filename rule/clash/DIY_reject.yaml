@@ -1,5 +1,12 @@
 payload:
   - PROCESS-NAME,Paste
+  - PROCESS-NAME,Bartender 4
+  - PROCESS-NAME,Neural Mix Pro
+  - PROCESS-NAME,Pixelmator Pro
+  - PROCESS-NAME,PPDuck3
+  - PROCESS-NAME,Sound Studio
+  - PROCESS-NAME,Wondershare PDFelement
+  - PROCESS-NAME,Wondershare UniConverter 14
   - PROCESS-NAME,Adobe Photoshop 2022
   - PROCESS-NAME,AdobeCRDaemon
   - PROCESS-NAME,AdobeIPCBroker

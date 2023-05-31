@@ -5,6 +5,7 @@ payload:
   - IP-CIDR,2607:f8b0:4005:80f::200e/128
   - DOMAIN,www.hicairo.com
   - DOMAIN,api.ttt.sh #IP接口
+  - DOMAIN,engage.cloudflareclient.com #WireGurad #WARP
   - DOMAIN-SUFFIX,xn--4gq62f52gdss.com #一元机场
   - DOMAIN-SUFFIX,tly13.com #tly机场
   - DOMAIN-SUFFIX,tly71.com #tly机场

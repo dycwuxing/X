@@ -4,7 +4,6 @@ payload:
   - IP-CIDR,168.138.43.211/32 #oracle 大阪01
   - IP-CIDR,152.69.204.15/32 #oracle 大阪02
   - IP-CIDR,129.146.169.208/32 #oracle 凤凰城01
-  - IP-CIDR,129.146.92.151/32 #oracle 凤凰城02
   - DOMAIN-SUFFIX,dyc001.cf
   - DOMAIN-SUFFIX,dyc001.tk
   - DOMAIN-SUFFIX,dycwuxing.ddns.info

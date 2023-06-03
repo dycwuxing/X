@@ -2,7 +2,9 @@ payload:
   - IP-CIDR,129.146.92.151/32 #oracle 凤凰城02(已强)
   - IP-CIDR,142.251.2.188/32 #ugools总是访问5228端口,疑google推送
   - IP-CIDR,2606:4700:d0::a29f:c001/128 #WireGurad #WARP
-  - IP-CIDR,162.159.192.1/32 #WireGurad #WARP
+  - IP-CIDR,162.159.192.0/24 #WireGurad #WARP
+  - IP-CIDR,162.159.195.0/24 #WireGurad #WARP
+  - IP-CIDR,188.114.96.0/24 #WireGurad #WARP
   - DOMAIN,www.hicairo.com
   - DOMAIN,api.ttt.sh #IP接口
   - DOMAIN,engage.cloudflareclient.com #WireGurad #WARP

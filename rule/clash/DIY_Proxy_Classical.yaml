@@ -10,7 +10,6 @@ payload:
   - DOMAIN-SUFFIX,xn--4gq62f52gdss.com #一元机场
   - DOMAIN-SUFFIX,tly13.com #tly机场
   - DOMAIN-SUFFIX,tly71.com #tly机场
-  - DOMAIN-SUFFIX,pqjc.site #赔钱机场
   - DOMAIN-SUFFIX,*.cyou
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net
@@ -34,11 +33,6 @@ payload:
   - DOMAIN-SUFFIX,freenom.world #Freenom
   - DOMAIN-SUFFIX,freenom.com #Freenom
   - DOMAIN-SUFFIX,bunkr.la
-  - DOMAIN-SUFFIX,yiyuan.cyou #机场订阅域名
-  #- DOMAIN-SUFFIX,glados-config.com #机场订阅域名
-  #- DOMAIN-SUFFIX,pengui.link #机场订阅域名
-  #- DOMAIN-SUFFIX,starsea.cyou #机场订阅域名
-  #- DOMAIN-SUFFIX,xn--4gq62f52gdss.com #机场订阅域名
   - DOMAIN-KEYWORD,ipify.org
   - DOMAIN-KEYWORD,uoc.gr
   - DOMAIN-KEYWORD,yandex.*

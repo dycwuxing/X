@@ -42,6 +42,12 @@ payload:
   - DOMAIN-SUFFIX,test-ipv6.com #APTV IPV6检测
   - DOMAIN-SUFFIX,msftconnecttest.com #微软联网
   - DOMAIN-SUFFIX,msftncsi.com #微软联网
+  - DOMAIN-SUFFIX,bigwatermelon.org #Henet
+  - DOMAIN-SUFFIX,smallstrawberry.com #一元
+  - DOMAIN-SUFFIX,glados-config.com #glados
+  - DOMAIN-SUFFIX,sharecentre.online #SCP
+  - DOMAIN-KEYWORD,pqjc.site #赔钱
+  - DOMAIN-KEYWORD,xstars.one #xstars
   - DOMAIN-KEYWORD,catcdndev.tk
   - DOMAIN-KEYWORD,gladns.com
   - DOMAIN-KEYWORD,entry.srthdw.art

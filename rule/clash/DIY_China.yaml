@@ -46,6 +46,7 @@ payload:
   - DOMAIN-SUFFIX,smallstrawberry.com #一元
   - DOMAIN-SUFFIX,glados-config.com #glados
   - DOMAIN-SUFFIX,sharecentre.online #SCP
+  - DOMAIN-SUFFIX,sub-200.club #ikuuu
   - DOMAIN-KEYWORD,pqjc.site #赔钱
   - DOMAIN-KEYWORD,xstars.one #xstars
   - DOMAIN-KEYWORD,catcdndev.tk

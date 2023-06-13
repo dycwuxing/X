@@ -30,6 +30,7 @@ payload:
   - DOMAIN,anti-ad.net #AD
   - DOMAIN,adaway.org #AD
   - DOMAIN,email.cofcoko.com #COFCOKO
+  - DOMAIN,app.chat.xiaomi.net #米家
   - DOMAIN,m.ximalaya.com #喜马拉雅测试
   - DOMAIN-SUFFIX,xmcdn.com #喜马拉雅测试
   - DOMAIN-SUFFIX,adultiptv.net.com #Adult

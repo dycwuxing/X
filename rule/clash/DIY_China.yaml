@@ -43,6 +43,7 @@ payload:
   - DOMAIN-SUFFIX,test-ipv6.com #APTV IPV6检测
   - DOMAIN-SUFFIX,msftconnecttest.com #微软联网
   - DOMAIN-SUFFIX,msftncsi.com #微软联网
+  - DOMAIN-SUFFIX,faw.cn #红旗智联
   - DOMAIN-SUFFIX,bigwatermelon.org #Henet
   - DOMAIN-SUFFIX,smallstrawberry.com #一元
   - DOMAIN-SUFFIX,glados-config.com #glados

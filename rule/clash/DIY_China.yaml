@@ -19,7 +19,6 @@ payload:
   - DOMAIN,af.alicdn.com #阿里云
   - DOMAIN,aeu.alicdn.com #阿里云
   - DOMAIN-SUFFIX,aliyundrive.com #阿里云
-  - DOMAIN,api.nn.ci #阿里云 Alist
   - DOMAIN,cdn.hklive.tv
   - DOMAIN,time.apple.com
   - DOMAIN,xinruimz-isv.isvjcloud.com

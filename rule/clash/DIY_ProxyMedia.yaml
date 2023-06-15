@@ -4,7 +4,6 @@ payload:
   - PROCESS-NAME,backgroundTaskHost.exe #WIN_OFFICE更新后台加速
   - PROCESS-NAME,WinStore.App.exe #WIN_STORE商店
   - PROCESS-NAME,Telegram
-  - IP-CIDR,116.196.84.232/32 #
   - DOMAIN-SUFFIX,github.com #github
   - DOMAIN-SUFFIX,githubusercontent.com #github
   - DOMAIN-KEYWORD,github.com #github
@@ -23,3 +22,39 @@ payload:
   - DOMAIN-SUFFIX,129888.xyz #nark
   - DOMAIN-SUFFIX,yandex.ru #yandex
   - DOMAIN-SUFFIX,hostloc.com #论坛
+  #HDOBOX分流开始
+  - DOMAIN-SUFFIX,membed.net
+  - DOMAIN-SUFFIX,lookmovie2.to
+  - DOMAIN-SUFFIX,fmovies.ps
+  - DOMAIN-SUFFIX,bflix.ru
+  - DOMAIN-SUFFIX,fsapi.xyz
+  - DOMAIN-SUFFIX,meomeo.pw
+  - DOMAIN-SUFFIX,fmovies.to
+  - DOMAIN-SUFFIX,mcloud.to
+  - DOMAIN-SUFFIX,mzzcloud.life
+  - DOMAIN-SUFFIX,streamtape.com
+  - DOMAIN-SUFFIX,vizcloud.cloud
+  - DOMAIN-SUFFIX,videovard.to
+  - DOMAIN-SUFFIX,rabbitstream.net
+  - DOMAIN-SUFFIX,streamlare.com
+  - DOMAIN-SUFFIX,sltube.org
+  - DOMAIN-SUFFIX,mixdrop.co
+  - DOMAIN-SUFFIX,jwpcdn.com
+  - DOMAIN-SUFFIX,feetcdn.com
+  - DOMAIN-SUFFIX,subscene.com
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,opensubtitles.org
+  - DOMAIN-SUFFIX,megaxfer.ru
+  - DOMAIN-SUFFIX,lencr.org
+  - DOMAIN-SUFFIX,ssacdn.com
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,trakt.tv
+  - DOMAIN-SUFFIX,appcenter.ms
+  - DOMAIN-SUFFIX,upgulpinon.com
+  - DOMAIN-SUFFIX,goodcache.ml
+  - DOMAIN-SUFFIX,cloudcdn.monster
+  - DOMAIN-SUFFIX,rtmark.net
+  - DOMAIN-SUFFIX,upgulpinon.com
+  - DOMAIN-SUFFIX,trackjs.com
+  - DOMAIN-SUFFIX,streamoon.online
+  #HDOBOX分流结束

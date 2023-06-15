@@ -25,3 +25,7 @@ payload:
   - DOMAIN-SUFFIX,wn1998.com
   - DOMAIN-SUFFIX,pwlt.wn1998.com
   - DOMAIN-SUFFIX,backup.www.hostbuf.com
+ #HDOBOX_AD
+   - DOMAIN-SUFFIX,applovin.com
+   - DOMAIN-SUFFIX,applvn.com
+   - DOMAIN-SUFFIX,doubleclick.net

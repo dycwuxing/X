@@ -4,6 +4,7 @@ payload:
   - PROCESS-NAME,backgroundTaskHost.exe #WIN_OFFICE更新后台加速
   - PROCESS-NAME,WinStore.App.exe #WIN_STORE商店
   - PROCESS-NAME,Telegram
+  - IP-CIDR116.196.84.232/32 #
   - DOMAIN-SUFFIX,github.com #github
   - DOMAIN-SUFFIX,githubusercontent.com #github
   - DOMAIN-KEYWORD,github.com #github

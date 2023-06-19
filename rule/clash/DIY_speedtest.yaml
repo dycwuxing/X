@@ -1,4 +1,5 @@
 payload:
+  - PROCESS-NAME,Speedtest
   - DOMAIN,speed.dler.io
   - DOMAIN,down.sandai.net #迅雷网速检测
   - DOMAIN-SUFFIX,speedtest.net #speedtest

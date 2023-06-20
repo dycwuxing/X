@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,freenom.world #Freenom
   - DOMAIN-SUFFIX,freenom.com #Freenom
   - DOMAIN-SUFFIX,bunkr.la
+  - DOMAIN-SUFFIX,centos.org
   - DOMAIN-KEYWORD,ipify.org
   - DOMAIN-KEYWORD,uoc.gr
   - DOMAIN-KEYWORD,yandex.*

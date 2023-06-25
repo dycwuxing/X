@@ -7,7 +7,6 @@ payload:
   - IP-CIDR,129.153.85.231/32 #oracle 凤凰城02
   - DOMAIN-SUFFIX,dyc001.cf
   - DOMAIN-SUFFIX,dyc001.tk
-  - DOMAIN-SUFFIX,dycwuxing.ddns.info
   - DOMAIN,dycsolomon.dynv6.net #DDNS_IPV6
   - DOMAIN,clash.metacubex.one #clash面板
   - DOMAIN,yacd.metacubex.one #clash面板

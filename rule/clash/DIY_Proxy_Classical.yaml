@@ -4,6 +4,7 @@ payload:
   - IP-CIDR,162.159.192.0/24 #WireGurad #WARP
   - IP-CIDR,162.159.195.0/24 #WireGurad #WARP
   - IP-CIDR,188.114.96.0/24 #WireGurad #WARP
+  - DOMAIN-SUFFIX,dycwuxing.ddns.info
   - DOMAIN,www.hicairo.com
   - DOMAIN,api.ttt.sh #IP接口
   - DOMAIN,engage.cloudflareclient.com #WireGurad #WARP

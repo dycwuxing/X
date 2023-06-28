@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,tly13.com #tly机场
   - DOMAIN-SUFFIX,tly71.com #tly机场
   - DOMAIN-KEYWORD,vpn.jlhs.space #金陵机场
+  - DOMAIN-KEYWORD,aricke.com #风车机场
   - DOMAIN-SUFFIX,*.cyou
   - DOMAIN-SUFFIX,ideame.top
   - DOMAIN-SUFFIX,dnslytics.net

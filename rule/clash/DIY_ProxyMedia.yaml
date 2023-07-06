@@ -2,3 +2,8 @@ payload:
   - DOMAIN,anren.live
   - DOMAIN,play-live.ifeng.com
   - DOMAIN-KEYWORD,iyf.tv
+  - DOMAIN,r.jdshipin.com #星视界
+  - DOMAIN-SUFFIX,ulivetv.net #星视界
+  - DOMAIN-SUFFIX,histar.tv #星视界
+
+  

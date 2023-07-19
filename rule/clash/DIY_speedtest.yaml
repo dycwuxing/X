@@ -10,7 +10,6 @@ payload:
   - DOMAIN-SUFFIX,orion.cloud #speedtest
   - DOMAIN-SUFFIX,cabospeed.com #speedtest
   - DOMAIN-KEYWORD,speedtest #speedtest
-  - DOMAIN-SUFFIX,fast.com
   - DOMAIN-KEYWORD,fiber.google.com
   - DOMAIN-KEYWORD,speed.cloudflare.com
   - DOMAIN-KEYWORD,cordcloud.speedtestcustom.com

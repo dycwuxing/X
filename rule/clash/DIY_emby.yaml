@@ -5,3 +5,4 @@ payload:
   - DOMAIN-KEYWORD,nextfilm.nmg.llc
   - DOMAIN,film.goodisp.org #NMEmby
   - DOMAIN-KEYWORD,123456.al
+  - DOMAIN-SUFFIX,emby.ws

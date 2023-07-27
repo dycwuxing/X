@@ -1,0 +1,15 @@
+#!name=GLADOS_CHECKIN
+#!openUrl = https://github.com/dycwuxing/X/edit/main/LOON_GLA.plugin
+#!author = DIY
+#!homepage = https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GLaDOS.png
+#原地址:https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js
+[MITM]
+hostname = glados.rocks
+
+[Rewrite]
+ctier=[A-Z] citer=A 302
+https://glados.rocks/api/user/checkin url script-request-header https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js
+
+[Script]
+15 7,15 * * * https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js, tag=Glados, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GLaDOS.png

@@ -11,4 +11,4 @@ hostname = glados.rocks
 https://glados.rocks/api/user/checkin url script-request-header https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js
 
 [Script]
-15 7,15 * * * https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js, tag=Glados, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GLaDOS.png
+cron "15 7,15 * * *" script-path=https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js, tag=Glados

@@ -3,6 +3,7 @@ payload:
   - DOMAIN-KEYWORD,misakaf
   - DOMAIN-KEYWORD,nebula-emby.com
   - DOMAIN-KEYWORD,nextfilm.nmg.llc
-  - DOMAIN-SUFFIX,ohhhh.org #NMEmby
+  - DOMAIN-SUFFIX,ohhhh.org
   - DOMAIN-KEYWORD,123456.al
   - DOMAIN-SUFFIX,emby.ws
+  - DOMAIN-SUFFIX,agon.cf

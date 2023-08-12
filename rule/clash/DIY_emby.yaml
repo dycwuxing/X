@@ -7,4 +7,4 @@ payload:
   - DOMAIN-KEYWORD,123456.al
   - DOMAIN-SUFFIX,emby.ws
   - DOMAIN-SUFFIX,agon.cf
-  - DOMAIN-SUFFIX,tank66.top
+  #- DOMAIN-SUFFIX,tank66.top #需要直连

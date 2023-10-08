@@ -32,4 +32,4 @@ payload:
   - DOMAIN-SUFFIX,applvn.com
   - DOMAIN-SUFFIX,doubleclick.net
  #Telegram
-  - IP-CIDR,91.108.56.0/24 #强制使用其他IP
+ # - IP-CIDR,91.108.56.0/24 #强制使用其他IP

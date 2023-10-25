@@ -1,0 +1,16 @@
+#!name=🍿️ DualSubs: 🎦 Universal
+#!desc=流媒体平台字幕增强及双语模块，如需恢复TV完整支持，请配合“ iRingo: 📺 TV app”使用
+#!openUrl=http://boxjs.com/#/app/DualSubs.Universal
+#!author=VirgilClyne
+#!homepage=https://github.com/DualSubs
+#!manual=https://github.com/DualSubs/Universal/wiki/🍿-DualSubs:-🎦-Universal
+#!icon=https://github.com/DualSubs/Universal/raw/main/database/icon_rounded.png
+
+[Script]
+http-response ^https?:\/\/(.+)\.media\.(dssott|starott)\.com\/ps01\/disney\/([0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})\/(cbcs|ctr)-all-(.+)\.m3u8 requires-body=1, script-path=https://raw.githubusercontent.com/DualSubs/Universal/main/js/DualSubs.Master.m3u8.response.js, tag=DualSubs.Disney+.Master.m3u8.response
+http-response ^https?:\/\/(.+)\.media\.(dssott|starott)\.com\/ps01\/disney\/([0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})\/r\/(.+)\.m3u8\?(.*)subtype= requires-body=1, script-path=https://raw.githubusercontent.com/DualSubs/Universal/main/js/DualSubs.Subtitles.m3u8.response.js, tag=DualSubs.Disney+.Subtitles.m3u8.response
+http-response ^https?:\/\/(.+)\.media\.(dssott|starott)\.com\/ps01\/disney\/([0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})\/(.+)\.vtt\?(.*)subtype=(Official|External) requires-body=1, script-path=https://raw.githubusercontent.com/DualSubs/Universal/main/js/DualSubs.Subtitles.Composite.response.js, tag=DualSubs.Disney+.Subtitles.Composite.response
+http-response ^https?:\/\/(.+)\.media\.(dssott|starott)\.com\/ps01\/disney\/([0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12})\/(.+)\.vtt\?(.*)subtype=Translate requires-body=1, script-path=https://raw.githubusercontent.com/DualSubs/Universal/main/js/DualSubs.Subtitles.Translate.response.js, tag=DualSubs.Disney+.Subtitles.Translate.response
+
+[MITM]
+hostname =*.media.dssott.com, *.media.starott.com

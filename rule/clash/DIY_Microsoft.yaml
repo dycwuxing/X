@@ -1,0 +1,9 @@
+payload:
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN,d.docs.live.net
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,proteus-assetstore.azurewebsites.net
+  - DOMAIN,nexusrules.officeapps.live.com
+  - DOMAIN,functional.events.data.microsoft.com
+  - DOMAIN,browser.events.data.msn.cn
+  - DOMAIN,services.bingapis.com

@@ -1,0 +1,11 @@
+payload:
+  - DOMAIN,xp.apple.com
+  - DOMAIN,gdmf.apple.com
+  - DOMAIN,mesu.apple.com
+  - DOMAIN,gg.apple.com
+  - DOMAIN,appldnld.apple.com
+  - DOMAIN,ns.itunes.apple.com
+  - DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,updates.cdn-apple.com
+  - DOMAIN,ocsp.apple.com
+  - DOMAIN,swscan.apple.com

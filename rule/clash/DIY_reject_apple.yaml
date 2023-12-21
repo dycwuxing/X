@@ -9,3 +9,4 @@ payload:
   - DOMAIN,updates.cdn-apple.com
   - DOMAIN,ocsp.apple.com
   - DOMAIN,swscan.apple.com
+  - DOMAIN,bpapi.apple.com

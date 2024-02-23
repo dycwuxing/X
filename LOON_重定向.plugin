@@ -7,7 +7,7 @@
 #!date = 2024-02-23
 
 [Rewrite]
-^https?:\/\/(www.)?(g|google)\.(cn|com\.hk)\/search\?q=%s header https://www.google.com/search?q=%s&?gfe_rd=cr&gws_rd=cr&safe=off
+^https?:\/\/(www.)?(g|google)\.(cn|com\.hk|com)\/search\?q=%s header https://www.google.com/search?q=%s&?gfe_rd=cr&gws_rd=cr&safe=off
 
 ^https?:\/\/(www.)?(g|google)\.com\.hk 302 https://www.google.com/ncr
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com/ncr
@@ -17,7 +17,7 @@
 
 
 [Mitm]
-hostname = www.google.cn,www.google.com.hk
+hostname = www.google.cn,www.google.com.hk,www.google.com
 
 #^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
 #^https:\/\/duckduckgo\.com\/\?q=bdimg\+([^&]+).+ 302 https://image.baidu.com/search/index?tn=baiduimage&word=$1

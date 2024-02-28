@@ -17,7 +17,7 @@
 
 
 [Mitm]
-hostname = www.google.cn,www.google.com.hk,www.google.com
+hostname = www.google.cn,www.google.com.hk,www.google.com,google.cn,google.com.hk,google.com
 
 #^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
 #^https:\/\/duckduckgo\.com\/\?q=bdimg\+([^&]+).+ 302 https://image.baidu.com/search/index?tn=baiduimage&word=$1

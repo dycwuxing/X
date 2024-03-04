@@ -9,6 +9,9 @@
 [Rewrite]
 ^https?:\/\/(www.)?(g|google)\.(cn|com\.hk|com)\/search\?q=([^&]+).+ 302 https://www.google.com/search?q=$1&?gfe_rd=cr&gws_rd=cr&safe=off
 
+^https?://(www.)?g.cn 302 https://www.google.com
+^https?://(www.)?google.cn 302 https://www.google.com 
+
 ^https?:\/\/(www.)?(g|google)\.com\.hk 302 https://www.google.com/ncr
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com/ncr
 

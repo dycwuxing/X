@@ -20,3 +20,4 @@ payload:
   - DOMAIN-SUFFIX,ddys.mov #低端影视
   - DOMAIN-SUFFIX,olevod.tv #欧乐影院
   - DOMAIN-SUFFIX,olevod.com #欧乐影院
+  - DOMAIN-SUFFIX,catbox.moe #猫盒视频

@@ -12,4 +12,8 @@ payload:
   - DOMAIN-SUFFIX,mypikpak.com #pikpak
   - DOMAIN-SUFFIX,playhls.com #网页播放器
   - DOMAIN-SUFFIX,infuseku.xyz #xptv
-  - DOMAIN-SUFFIX,ddys.pro #xptv
+  - DOMAIN-SUFFIX,ddys.pro #低端影视
+  - DOMAIN-SUFFIX,ddys.art #低端影视
+  - DOMAIN-SUFFIX,ddys.site #低端影视
+  - DOMAIN-SUFFIX,olevod.tv #欧乐影院
+  - DOMAIN-SUFFIX,olevod.com #欧乐影院

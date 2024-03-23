@@ -10,7 +10,12 @@ payload:
   - PROCESS-NAME,Adobe Photoshop 2022
   - PROCESS-NAME,AdobeCRDaemon
   - PROCESS-NAME,AdobeIPCBroker
-  - PROCESS-NAME,Adobe Photoshop 2022 Networking 
+  - PROCESS-NAME,Adobe Photoshop 2022
+  - PROCESS-NAME,Adobe Photoshop 2022 Networking
+  - PROCESS-NAME,“Adobe Photoshop 2022”网页内容
+  - PROCESS-NAME,Adobe Photoshop 2024
+  - PROCESS-NAME,Adobe Photoshop 2024 Networking
+  - PROCESS-NAME,“Adobe Photoshop 2024”网页内容
   - PROCESS-NAME,Microsoft AutoUpdate
   - PROCESS-NAME,Microsoft Update Assistant
   #finalshell

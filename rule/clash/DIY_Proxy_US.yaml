@@ -3,3 +3,5 @@ payload:
   - DOMAIN-SUFFIX,www.avsforum.com
   - DOMAIN-SUFFIX,mp3quack.app #mp3quack
   - DOMAIN-KEYWORD,ytmp3cut #mp3quack
+  - DOMAIN-SUFFIX,character.ai #克劳德
+  - DOMAIN-SUFFIX,characterai.io #克劳德

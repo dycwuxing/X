@@ -20,7 +20,7 @@ payload:
   - PROCESS-NAME,Microsoft Update Assistant
   #finalshell
   - PROCESS-NAME,FinalShell
-  - IP-CIDR,58.247.214.47/32
+  - IP-CIDR,58.247.214.47/32,no-resolve
   - DOMAIN-SUFFIX,updates-s3.binaryage.com
   - DOMAIN-SUFFIX,binaryage-leechgate.herokuapp.com
   - DOMAIN-SUFFIX,youtusoft.com

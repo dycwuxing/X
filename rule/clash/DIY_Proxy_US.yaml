@@ -6,3 +6,4 @@ payload:
   - DOMAIN-SUFFIX,character.ai #克劳德
   - DOMAIN-SUFFIX,claude.ai #克劳德
   - DOMAIN-SUFFIX,characterai.io #克劳德
+  - DOMAIN-SUFFIX,linux.do

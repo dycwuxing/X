@@ -2,6 +2,7 @@
 #原地址:https://github.com/NobyDa/Script/blob/master/QuantumultX/Js.conf
 #其他的圈X规则:https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qxrules.conf
 #http-response xxx script-path=, requires-body=true, timeout=10, tag=xxx
+#test
 
 
 [MITM]

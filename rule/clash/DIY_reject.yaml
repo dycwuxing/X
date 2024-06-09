@@ -7,15 +7,15 @@ payload:
   - PROCESS-NAME,Sound Studio
   - PROCESS-NAME,Wondershare PDFelement
   - PROCESS-NAME,Wondershare UniConverter 14
-  - PROCESS-NAME,Adobe Photoshop 2022
   - PROCESS-NAME,AdobeCRDaemon
   - PROCESS-NAME,AdobeIPCBroker
   - PROCESS-NAME,Adobe Photoshop 2022
   - PROCESS-NAME,Adobe Photoshop 2022 Networking
-  - PROCESS-NAME,“Adobe Photoshop 2022”网页内容
   - PROCESS-NAME,Adobe Photoshop 2024
   - PROCESS-NAME,Adobe Photoshop 2024 Networking
-  - PROCESS-NAME,“Adobe Photoshop 2024”网页内容
+  - PROCESS-NAME,Creative Cloud Content Manager.node
+  - PROCESS-NAME,Adobe Crash Handler
+  - PROCESS-NAME,Adobe Crash Processor
   - PROCESS-NAME,Microsoft AutoUpdate
   - PROCESS-NAME,Microsoft Update Assistant
   #finalshell

@@ -1,6 +1,8 @@
 payload:
   - PROCESS-NAME,Speedtest
   - DOMAIN,speed.dler.io
+  - DOMAIN,speedsin.phoenixnap.com
+  - DOMAIN,speed.cloudflare.com
   - DOMAIN,down.sandai.net #迅雷网速检测
   - DOMAIN-SUFFIX,speedtest.net #speedtest
   - DOMAIN-SUFFIX,ooklaserver.net #speedtest
@@ -9,11 +11,8 @@ payload:
   - DOMAIN-SUFFIX,ioflood.com #speedtest
   - DOMAIN-SUFFIX,orion.cloud #speedtest
   - DOMAIN-SUFFIX,cabospeed.com #speedtest
-  - DOMAIN-KEYWORD,speedtest #speedtest
-  - DOMAIN-KEYWORD,fiber.google.com
-  - DOMAIN-KEYWORD,speed.cloudflare.com
-  - DOMAIN-KEYWORD,cordcloud.speedtestcustom.com
-  - DOMAIN-KEYWORD,ossweb-img.qq.com
+  - DOMAIN-SUFFIX,fiber.google.com
+  - DOMAIN-SUFFIX,cordcloud.speedtestcustom.com
+  - DOMAIN-SUFFIX,ossweb-img.qq.com
   - DOMAIN-SUFFIX,laomoe.com
-  - DOMAIN,speedsin.phoenixnap.com
-  - DOMAIN,speed.cloudflare.com
+  - DOMAIN-KEYWORD,speedtest #speedtest

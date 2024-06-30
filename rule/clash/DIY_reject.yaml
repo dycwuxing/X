@@ -44,3 +44,5 @@ payload:
   - DOMAIN,business-api.tiktok.com
   - DOMAIN,ads.tiktok.com
   - DOMAIN,log.byteoversea.com
+ #Sogou
+  - DOMAIN-SUFFIX,otheve.beacon.qq.com

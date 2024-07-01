@@ -46,3 +46,5 @@ payload:
   - DOMAIN,log.byteoversea.com
  #Sogou
   - DOMAIN-SUFFIX,otheve.beacon.qq.com
+ #腾讯
+  - DOMAIN-SUFFIX,aegis.qq.com

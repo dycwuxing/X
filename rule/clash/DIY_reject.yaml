@@ -49,5 +49,5 @@ payload:
  #腾讯
   - DOMAIN-SUFFIX,aegis.qq.com
  #狗逼知乎
-  - DOMAIN-REGEX,^(103)\.(41)\.(167)\.(237)$
-  - DOMAIN-REGEX,^(118)\.(89)\.(204)\.(198)$
+  - DOMAIN-REGEX,(103)\.(41)\.(167)\.(237)
+  - DOMAIN-REGEX,(118)\.(89)\.(204)\.(198)

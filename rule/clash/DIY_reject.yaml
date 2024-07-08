@@ -48,3 +48,6 @@ payload:
   - DOMAIN-SUFFIX,otheve.beacon.qq.com
  #腾讯
   - DOMAIN-SUFFIX,aegis.qq.com
+ #狗逼知乎
+  - DOMAIN-REGEX,http:\/\/(103)\.(41)\.(167)\.(237)
+  - DOMAIN-REGEX,http:\/\/(118)\.(89)\.(204)\.(198)

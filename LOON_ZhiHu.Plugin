@@ -1,0 +1,33 @@
+#!name = 自定义知乎去广告
+#!desc = 放在其他去广告前面
+#!author = Surge
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Zhihu.png
+#!homepage = https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/zhihu/zhihu.sgmodule
+#!date = 2024-07-08 14:00:00
+
+[Rule]
+// http://103.41.167.237/v2/resolv?host=xxx
+DOMAIN,103.41.167.237,REJECT
+URL-REGEX,https://api\.zhihu\.com/commercial_api,REJECT
+
+[Script]
+// 首页 -> 关注
+http-response ^https://api\.zhihu\.com/moments/recommend script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/zhihu/zhihu_moments_recommend.js, requires-body=true, timeout=60, tag=知乎首页关注
+
+// 首页 -> 推荐
+http-response ^https://api\.zhihu\.com/topstory/recommend script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/zhihu/zhihu_topstory_recommend.js, requires-body=true, timeout=60, tag=知乎首页推荐
+
+// 知乎某问题的页面
+http-response ^https://api\.zhihu\.com/v4/questions/\d+/answers script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/zhihu/zhihu_question_answers.js, requires-body=true, timeout=60, tag=知乎某问题的页面
+http-response ^https://api\.zhihu\.com\/questions/\d+/feeds\? script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/zhihu/zhihu_question_feeds.js, requires-body=true, timeout=60, tag=知乎某问题的页面
+
+// 回答最下方的广告
+http-response ^https://www\.zhihu\.com/api/v4/answers/\d+/recommendations script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/zhihu/zhihu_answer.js, requires-body=true, timeout=60, tag=知乎回答最下方的广告
+
+
+// 应该是兼容（返回老版本）
+http-response ^https://appcloud2\.zhihu\.com/v3/config$ script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/zhihu/zhihu_config.js, requires-body=true, timeout=60, tag=知乎兼容老版本
+
+
+[MITM]
+hostname = %APPEND% api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com

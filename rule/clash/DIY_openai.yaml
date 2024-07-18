@@ -2,3 +2,4 @@ payload:
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN,new.oaifree.com #linux.do

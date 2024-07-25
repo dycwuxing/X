@@ -1,8 +1,8 @@
 payload:
   #https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list
   #OPENAI
-  - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-,no-resolve),(DOMAIN-SUFFIX,webpubsub.azure.com,no-resolve),no-resolve),no-resolve
-  - AND,((DOMAIN-KEYWORD,openaicom-api-,no-resolve),(DOMAIN-SUFFIX,azurefd.net,no-resolve),no-resolve),no-resolve
+  - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-,no-resolve),(DOMAIN-SUFFIX,webpubsub.azure.com,no-resolve),no-resolve)
+  - AND,((DOMAIN-KEYWORD,openaicom-api-,no-resolve),(DOMAIN-SUFFIX,azurefd.net,no-resolve),no-resolve)
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net

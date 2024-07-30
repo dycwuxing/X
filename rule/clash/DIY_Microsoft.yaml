@@ -1,5 +1,4 @@
 payload:
-  - PROCESS-NAME,PBIDesktop.exe
   - DOMAIN,edgeservices.bing.com
   - DOMAIN,d.docs.live.net
   - DOMAIN,edge.microsoft.com

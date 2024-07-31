@@ -1,5 +1,5 @@
 payload:
-  - PROCESS-NAME,Speedtest
+  - PROCESS-NAME,Speedtest,no-resolve
   - DOMAIN,speed.dler.io
   - DOMAIN,speedsin.phoenixnap.com
   - DOMAIN,speed.cloudflare.com

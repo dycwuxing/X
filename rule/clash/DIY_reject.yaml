@@ -1,25 +1,25 @@
 payload:
-  - PROCESS-NAME,Paste
-  - PROCESS-NAME,Bartender 4
-  - PROCESS-NAME,Neural Mix Pro
-  - PROCESS-NAME,Pixelmator Pro
-  - PROCESS-NAME,PPDuck3
-  - PROCESS-NAME,Sound Studio
-  - PROCESS-NAME,Wondershare PDFelement
-  - PROCESS-NAME,Wondershare UniConverter 14
-  - PROCESS-NAME,AdobeCRDaemon
-  - PROCESS-NAME,AdobeIPCBroker
-  - PROCESS-NAME,Adobe Photoshop 2022
-  - PROCESS-NAME,Adobe Photoshop 2022 Networking
-  - PROCESS-NAME,Adobe Photoshop 2024
-  - PROCESS-NAME,Adobe Photoshop 2024 Networking
-  - PROCESS-NAME,Creative Cloud Content Manager.node
-  - PROCESS-NAME,Adobe Crash Handler
-  - PROCESS-NAME,Adobe Crash Processor
-  - PROCESS-NAME,Microsoft AutoUpdate
-  - PROCESS-NAME,Microsoft Update Assistant
+  - PROCESS-NAME,Paste,no-resolve
+  - PROCESS-NAME,Bartender 4,no-resolve
+  - PROCESS-NAME,Neural Mix Pro,no-resolve
+  - PROCESS-NAME,Pixelmator Pro,no-resolve
+  - PROCESS-NAME,PPDuck3,no-resolve
+  - PROCESS-NAME,Sound Studio,no-resolve
+  - PROCESS-NAME,Wondershare PDFelement,no-resolve
+  - PROCESS-NAME,Wondershare UniConverter 14,no-resolve
+  - PROCESS-NAME,AdobeCRDaemon,no-resolve
+  - PROCESS-NAME,AdobeIPCBroker,no-resolve
+  - PROCESS-NAME,Adobe Photoshop 2022,no-resolve
+  - PROCESS-NAME,Adobe Photoshop 2022 Networking,no-resolve
+  - PROCESS-NAME,Adobe Photoshop 2024,no-resolve
+  - PROCESS-NAME,Adobe Photoshop 2024 Networking,no-resolve
+  - PROCESS-NAME,Creative Cloud Content Manager.node,no-resolve
+  - PROCESS-NAME,Adobe Crash Handler,no-resolve
+  - PROCESS-NAME,Adobe Crash Processor,no-resolve
+  - PROCESS-NAME,Microsoft AutoUpdate,no-resolve
+  - PROCESS-NAME,Microsoft Update Assistant,no-resolve
   #finalshell
-  - PROCESS-NAME,FinalShell
+  - PROCESS-NAME,FinalShell,no-resolve
   - IP-CIDR,58.247.214.47/32,no-resolve
   - DOMAIN-SUFFIX,updates-s3.binaryage.com
   - DOMAIN-SUFFIX,binaryage-leechgate.herokuapp.com

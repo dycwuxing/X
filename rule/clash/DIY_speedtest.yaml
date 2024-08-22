@@ -1,5 +1,6 @@
 payload:
   - PROCESS-NAME,Speedtest,no-resolve
+  - DOMAIN-KEYWORD,speedtest #speedtest
   - DOMAIN,speed.dler.io
   - DOMAIN,speedsin.phoenixnap.com
   - DOMAIN,speed.cloudflare.com
@@ -15,4 +16,7 @@ payload:
   - DOMAIN-SUFFIX,cordcloud.speedtestcustom.com
   - DOMAIN-SUFFIX,ossweb-img.qq.com
   - DOMAIN-SUFFIX,laomoe.com
-  - DOMAIN-KEYWORD,speedtest #speedtest
+  - DOMAIN,wifiman-stability-test.ubncloud.com #wifiman
+  - DOMAIN-SUFFIX,wifiman.com #wifiman
+  - DOMAIN-SUFFIX,wifiman.me #wifiman
+  - DOMAIN-SUFFIX,wifiman.ubncloud.com #wifiman

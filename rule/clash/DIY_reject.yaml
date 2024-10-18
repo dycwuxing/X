@@ -53,5 +53,6 @@ payload:
   - DOMAIN-REGEX,(118)\.(89)\.(204)\.(198),no-resolve
   - IP-CIDR,103.41.167.237/32,no-resolve
   - IP-CIDR,118.89.204.198/32,no-resolve
-  #
+  #广告平台
   - DOMAIN-SUFFIX,sigmob.cn
+  - DOMAIN-SUFFIX,etoolads.cn

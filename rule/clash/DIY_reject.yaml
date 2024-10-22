@@ -58,3 +58,26 @@ payload:
   - DOMAIN-SUFFIX,etoolads.cn
   - DOMAIN-SUFFIX,tobidad.cn
   - DOMAIN-SUFFIX,bytescm.com
+  #PCDN
+  - DOMAIN,stun.hitv.com
+  - DOMAIN,pcdn.yximgs.com
+  - DOMAIN,stun.douyucdn.cn
+  - DOMAIN,stun1.douyucdn.cn
+  - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,bsccdn.net
+  - DOMAIN-SUFFIX,pkoplink.com
+  - DOMAIN-SUFFIX,saxysec.com
+  - DOMAIN-SUFFIX,uhabo.com
+  - DOMAIN-SUFFIX,xycdn.com
+  - DOMAIN-SUFFIX,kuiniuca.com
+  - DOMAIN-SUFFIX,onethingpcs.com
+  - DOMAIN-SUFFIX,jomodns.cn
+  - DOMAIN-SUFFIX,p2p.huya.com
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
+  - DOMAIN-SUFFIX,pcdn.xmcdn.com
+  - DOMAIN-REGEX,.*pcdn.*biliapi\.net
+  - DOMAIN-REGEX,.*pcdn.*youku\.com
+  - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
+  - DOMAIN-REGEX,.*p2p.*qq\.com

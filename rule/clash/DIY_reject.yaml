@@ -81,3 +81,5 @@ payload:
   - DOMAIN-REGEX,.*pcdn.*youku\.com
   - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
   - DOMAIN-REGEX,.*p2p.*qq\.com
+  #BT/PT链接
+  - IP-CIDR,79.136.145.175/32,no-resolve

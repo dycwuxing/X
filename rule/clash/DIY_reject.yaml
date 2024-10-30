@@ -92,4 +92,4 @@ payload:
   - DOMAIN-REGEX,r\d+---sn-4g5[a-zA-Z0-9]*\.googlevideo\.com
   - DOMAIN-REGEX,r\d+---sn-ogu[a-zA-Z0-9]*\.googlevideo\.com
   - DOMAIN-REGEX,r\d+---sn-5go[a-zA-Z0-9]*\.googlevideo\.com
-  - DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-npo[a-zA-Z0-9]*\.googlevideo\.com

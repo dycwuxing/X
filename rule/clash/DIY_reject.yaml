@@ -84,12 +84,12 @@ payload:
   #BT/PT链接
   - IP-CIDR,79.136.145.175/32,no-resolve
  #Youtube
-  - DOMAIN-REGEX,^r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-q4f[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-a5m[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-5hn[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-4g5[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-ogu[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-5go[a-zA-Z0-9]*\.googlevideo\.com$
-  - DOMAIN-REGEX,^r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com$
+  - DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-q4f[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-a5m[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-5hn[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-4g5[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-ogu[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-5go[a-zA-Z0-9]*\.googlevideo\.com
+  - DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com

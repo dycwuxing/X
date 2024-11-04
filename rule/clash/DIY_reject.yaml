@@ -49,8 +49,8 @@ payload:
  #腾讯
   - DOMAIN-SUFFIX,aegis.qq.com
  #狗逼知乎
-  - DOMAIN-REGEX,(103)\.(41)\.(167)\.(237),no-resolve
-  - DOMAIN-REGEX,(118)\.(89)\.(204)\.(198),no-resolve
+  - DOMAIN-REGEX,(103)\.(41)\.(167)\.(237)
+  - DOMAIN-REGEX,(118)\.(89)\.(204)\.(198)
   - IP-CIDR,103.41.167.237/32,no-resolve
   - IP-CIDR,118.89.204.198/32,no-resolve
   #广告平台

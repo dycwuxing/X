@@ -21,6 +21,7 @@ payload:
   #finalshell
   - PROCESS-NAME,FinalShell,no-resolve
   - IP-CIDR,58.247.214.47/32,no-resolve
+  - IP-CIDR,5.5.5.5/32,no-resolve
   - DOMAIN-SUFFIX,updates-s3.binaryage.com
   - DOMAIN-SUFFIX,binaryage-leechgate.herokuapp.com
   - DOMAIN-SUFFIX,youtusoft.com
@@ -83,6 +84,8 @@ payload:
   - DOMAIN-REGEX,.*p2p.*qq\.com
   #BT/PT链接
   - IP-CIDR,79.136.145.175/32,no-resolve
+  #Other
+  - DOMAIN-SUFFIX,hao123.com
  #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

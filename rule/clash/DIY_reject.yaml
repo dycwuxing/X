@@ -84,6 +84,8 @@ payload:
   - DOMAIN-REGEX,.*p2p.*qq\.com
   #BT/PT链接
   - IP-CIDR,79.136.145.175/32,no-resolve
+  #telegram减少转圈(效果未知)
+  - IP-CIDR,95.161.76.100/31,no-resolve
   #Other
   - DOMAIN-SUFFIX,hao123.com
  #Youtube

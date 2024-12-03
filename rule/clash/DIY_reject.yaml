@@ -86,6 +86,96 @@ payload:
   - IP-CIDR,79.136.145.175/32,no-resolve
   #Other
   - DOMAIN-SUFFIX,hao123.com
+  #widows_升级提醒
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,update.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,wustat.windows.com
+  - DOMAIN-SUFFIX,ntservicepack.microsoft.com
+  - DOMAIN-SUFFIX,test.stats.update.microsoft.com
+  #office_升级提醒 Microsoft Auto Update
+  - DOMAIN-SUFFIX,officecdnmac.microsoft.com
+  # mxplayer_升级提醒
+  - DOMAIN-SUFFIX,mxplayer.j2inter.com
+  - DOMAIN-SUFFIX,mxplay.com
+  - DOMAIN-SUFFIX,mx.j2inter.com.lan
+  - DOMAIN-SUFFIX,mx.j2inter.com
+  #当贝
+  - DOMAIN-KEYWORD,appsou.tvapk
+  - DOMAIN-KEYWORD,esmapi.dangbei
+  - DOMAIN-KEYWORD,up.dangbei
+  - DOMAIN-KEYWORD,sm.tvfuwu
+  - DOMAIN-SUFFIX,dbidapi.tymcdn.com
+  - DOMAIN-KEYWORD,appsou.tvapk
+  - DOMAIN-KEYWORD,esmapi.dangbei
+  - DOMAIN-KEYWORD,up.dangbei
+  - DOMAIN-KEYWORD,sm.tvfuwu
+  #阿里云
+  - DOMAIN-SUFFIX,adash.man.aliyuncs.com
+  #爱奇艺
+  - DOMAIN-SUFFIX,cupid.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,policy.video.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,ctyuncdnct.inter.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,msg.71.am
+  - DOMAIN-SUFFIX,cupid.iqiyi.com
+  - DOMAIN-SUFFIX,cupid.qiyi.com
+  - DOMAIN-SUFFIX,msg.iqiyi.com
+  #优酷
+  - DOMAIN-SUFFIX,ems.youku.com
+  - DOMAIN-SUFFIX,ipm.atm.youku.com
+  - DOMAIN-SUFFIX,val.atm.youku.com
+  - DOMAIN-SUFFIX,dressimage.img-cn-beijing.aliyuncs.com
+  - DOMAIN-SUFFIX,themis.ykimg.com
+  - DOMAIN-SUFFIX,cm.miaozhen.atm.youku.com
+  - DOMAIN-SUFFIX,html.atm.youku.com
+  - DOMAIN-SUFFIX,hudong.pl.youku.com
+  - DOMAIN-SUFFIX,m.yes.youku.com
+  - DOMAIN-SUFFIX,miaozhen.atm.youku.com
+  - DOMAIN-SUFFIX,player.lstat.youku.com
+  - DOMAIN-SUFFIX,static.atm.youku.com
+  - DOMAIN-SUFFIX,v.l.youku.com
+  - DOMAIN-SUFFIX,v2html.atm.youku.com
+  - DOMAIN-SUFFIX,vid.atm.youku.com
+  - DOMAIN-SUFFIX,reply.lomark.cn
+  - DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net
+  - DOMAIN-SUFFIX,ad.api.3g.tudou.com
+  - DOMAIN-SUFFIX,ad.api.3g.youku.com
+  - DOMAIN-SUFFIX,ad.api.mobile.youku.com
+  - DOMAIN-SUFFIX,atm.youku.com
+  - DOMAIN-SUFFIX,b.smartvideo.youku.com
+  - DOMAIN-SUFFIX,dev-push.m.youku.com
+  - DOMAIN-SUFFIX,dl.g.youku.com
+  - DOMAIN-SUFFIX,gamex.mobile.youku.com
+  - DOMAIN-SUFFIX,guanggaoad.youku.com
+  - DOMAIN-SUFFIX,hudong.pl.youku.com
+  - DOMAIN-SUFFIX,lstat.youku.com
+  - DOMAIN-SUFFIX,mobilemsg.youku.com
+  - DOMAIN-SUFFIX,passport-log.youku.com
+  - DOMAIN-SUFFIX,push.m.youku.com
+  - DOMAIN-SUFFIX,wan.youku.com
+  - DOMAIN-SUFFIX,yes.youku.com
+  - DOMAIN-SUFFIX,e.stat.ykimg.com
+  - DOMAIN-SUFFIX,p-log.ykimg.com
+  - DOMAIN-SUFFIX,themis.ykimg.com
+  #腾讯视频
+  - DOMAIN-SUFFIX,bla.gtimg.com
+  - DOMAIN-SUFFIX,ra.gtimg.com
+  - DOMAIN-SUFFIX,adsrich.qq.com
+  - DOMAIN-SUFFIX,jqmt.qq.com
+  - DOMAIN-SUFFIX,jsqmt.qq.com
+  - DOMAIN-SUFFIX,pingfore.qq.com
+  - DOMAIN-SUFFIX,pinghot.qq.com
+  - DOMAIN-SUFFIX,tj.video.qq.com
+  - DOMAIN-SUFFIX,imc.l.qq.com
+  - DOMAIN-SUFFIX,livec.l.qq.com
+  - DOMAIN-SUFFIX,livep.l.qq.com
+  - DOMAIN-SUFFIX,lives.l.qq.com
+  - DOMAIN-SUFFIX,cm.l.qq.com
+  - DOMAIN-SUFFIX,m.l.qq.com
+  - DOMAIN-SUFFIX,p.l.qq.com
+  - DOMAIN-SUFFIX,x.l.qq.com
+  - DOMAIN-SUFFIX,p.tencentmind.com
  #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

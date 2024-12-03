@@ -102,15 +102,11 @@ payload:
   - DOMAIN-SUFFIX,mx.j2inter.com.lan
   - DOMAIN-SUFFIX,mx.j2inter.com
   #当贝
-  - DOMAIN-KEYWORD,appsou.tvapk
-  - DOMAIN-KEYWORD,esmapi.dangbei
-  - DOMAIN-KEYWORD,up.dangbei
-  - DOMAIN-KEYWORD,sm.tvfuwu
+  - DOMAIN-SUFFIX,appsou.tvapk.com
+  - DOMAIN-SUFFIX,esmapi.dangbei.net
+  - DOMAIN-SUFFIX,up.dangbei.com
+  - DOMAIN-SUFFIX,sm.tvfuwu.com
   - DOMAIN-SUFFIX,dbidapi.tymcdn.com
-  - DOMAIN-KEYWORD,appsou.tvapk
-  - DOMAIN-KEYWORD,esmapi.dangbei
-  - DOMAIN-KEYWORD,up.dangbei
-  - DOMAIN-KEYWORD,sm.tvfuwu
   #阿里云
   - DOMAIN-SUFFIX,adash.man.aliyuncs.com
   #爱奇艺

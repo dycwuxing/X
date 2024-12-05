@@ -15,6 +15,7 @@ payload:
   #- IP-CIDR6,2a0a:f280:203::/48,no-resolve
   #不好的天翼云盘ip
   - IP-CIDR,182.40.40.132/32,no-resolve
+  - DOMAIN,media-sdqd-fy-person.sdoss.ctyunxs.cn
   #用于追踪日志的
   #- DOMAIN,o1098464.ingest.sentry.io
   - DOMAIN-SUFFIX,sentry.io

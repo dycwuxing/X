@@ -12,3 +12,4 @@ payload:
   - DOMAIN,swscan.apple.com
   - DOMAIN,bpapi.apple.com
   - DOMAIN,gdmf.v.aaplimg.com
+  - DOMAIN,xp.itunes-apple.com.akadns.net

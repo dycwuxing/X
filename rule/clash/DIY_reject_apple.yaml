@@ -11,3 +11,4 @@ payload:
   - DOMAIN,ocsp2.apple.com
   - DOMAIN,swscan.apple.com
   - DOMAIN,bpapi.apple.com
+  - DOMAIN,gdmf.v.aaplimg.com

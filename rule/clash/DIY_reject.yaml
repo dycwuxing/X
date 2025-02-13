@@ -172,6 +172,8 @@ payload:
   - DOMAIN-SUFFIX,p.l.qq.com
   - DOMAIN-SUFFIX,x.l.qq.com
   - DOMAIN-SUFFIX,p.tencentmind.com
+  #小米
+  - DOMAIN-SUFFIX,api.ad.xiaomi.com
  #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

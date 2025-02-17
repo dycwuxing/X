@@ -33,11 +33,11 @@ payload:
   - DOMAIN-SUFFIX,wn1998.com
   - DOMAIN-SUFFIX,pwlt.wn1998.com
   - DOMAIN-SUFFIX,backup.www.hostbuf.com
- #HDOBOX_AD
+  #HDOBOX_AD
   - DOMAIN-SUFFIX,applovin.com
   - DOMAIN-SUFFIX,applvn.com
   - DOMAIN-SUFFIX,doubleclick.net
- #TIKTOK_AD
+  #TIKTOK_AD
   #- DOMAIN,ads-api.tiktok.com
   #- DOMAIN,analytics.tiktok.com
   #- DOMAIN,ads-sg.tiktok.com
@@ -45,14 +45,14 @@ payload:
   #- DOMAIN,business-api.tiktok.com
   #- DOMAIN,ads.tiktok.com
   #- DOMAIN,log.byteoversea.com
- #Sogou
+  #Sogou
   - DOMAIN-SUFFIX,otheve.beacon.qq.com
- #狗逼知乎
-  #- DOMAIN-REGEX,(103)\.(41)\.(167)\.(237)
-  #- DOMAIN-REGEX,(118)\.(89)\.(204)\.(198)
-  #- IP-CIDR,103.41.167.237/32,no-resolve
-  #- IP-CIDR,118.89.204.198/32,no-resolve
-  #- IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+  #狗逼知乎
+  - DOMAIN-REGEX,(103)\.(41)\.(167)\.(237)
+  - DOMAIN-REGEX,(118)\.(89)\.(204)\.(198)
+  - IP-CIDR,103.41.167.237/32,no-resolve
+  - IP-CIDR,118.89.204.198/32,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
   #广告平台
   - DOMAIN-SUFFIX,sigmob.cn
   - DOMAIN-SUFFIX,etoolads.cn
@@ -133,87 +133,7 @@ payload:
   - DOMAIN-SUFFIX,cupid.iqiyi.com
   - DOMAIN-SUFFIX,cupid.qiyi.com
   - DOMAIN-SUFFIX,msg.iqiyi.com
-  #优酷
-  - DOMAIN-SUFFIX,ems.youku.com
-  - DOMAIN-SUFFIX,ipm.atm.youku.com
-  - DOMAIN-SUFFIX,val.atm.youku.com
-  - DOMAIN-SUFFIX,dressimage.img-cn-beijing.aliyuncs.com
-  - DOMAIN-SUFFIX,themis.ykimg.com
-  - DOMAIN-SUFFIX,cm.miaozhen.atm.youku.com
-  - DOMAIN-SUFFIX,html.atm.youku.com
-  - DOMAIN-SUFFIX,hudong.pl.youku.com
-  - DOMAIN-SUFFIX,m.yes.youku.com
-  - DOMAIN-SUFFIX,miaozhen.atm.youku.com
-  - DOMAIN-SUFFIX,player.lstat.youku.com
-  - DOMAIN-SUFFIX,static.atm.youku.com
-  - DOMAIN-SUFFIX,v.l.youku.com
-  - DOMAIN-SUFFIX,v2html.atm.youku.com
-  - DOMAIN-SUFFIX,vid.atm.youku.com
-  - DOMAIN-SUFFIX,reply.lomark.cn
-  - DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net
-  - DOMAIN-SUFFIX,ad.api.3g.tudou.com
-  - DOMAIN-SUFFIX,ad.api.3g.youku.com
-  - DOMAIN-SUFFIX,ad.api.mobile.youku.com
-  - DOMAIN-SUFFIX,atm.youku.com
-  - DOMAIN-SUFFIX,b.smartvideo.youku.com
-  - DOMAIN-SUFFIX,dev-push.m.youku.com
-  - DOMAIN-SUFFIX,dl.g.youku.com
-  - DOMAIN-SUFFIX,gamex.mobile.youku.com
-  - DOMAIN-SUFFIX,guanggaoad.youku.com
-  - DOMAIN-SUFFIX,hudong.pl.youku.com
-  - DOMAIN-SUFFIX,lstat.youku.com
-  - DOMAIN-SUFFIX,mobilemsg.youku.com
-  - DOMAIN-SUFFIX,passport-log.youku.com
-  - DOMAIN-SUFFIX,push.m.youku.com
-  - DOMAIN-SUFFIX,wan.youku.com
-  - DOMAIN-SUFFIX,yes.youku.com
-  - DOMAIN-SUFFIX,e.stat.ykimg.com
-  - DOMAIN-SUFFIX,p-log.ykimg.com
-  - DOMAIN-SUFFIX,themis.ykimg.com
-  #腾讯
-  - DOMAIN-SUFFIX,aegis.qq.com
-  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
-  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
-  #腾讯视频
-  - DOMAIN-SUFFIX,bla.gtimg.com
-  - DOMAIN-SUFFIX,ra.gtimg.com
-  - DOMAIN-SUFFIX,adsrich.qq.com
-  - DOMAIN-SUFFIX,jqmt.qq.com
-  - DOMAIN-SUFFIX,jsqmt.qq.com
-  - DOMAIN-SUFFIX,pingfore.qq.com
-  - DOMAIN-SUFFIX,pinghot.qq.com
-  - DOMAIN-SUFFIX,tj.video.qq.com
-  - DOMAIN-SUFFIX,imc.l.qq.com
-  - DOMAIN-SUFFIX,livec.l.qq.com
-  - DOMAIN-SUFFIX,livep.l.qq.com
-  - DOMAIN-SUFFIX,lives.l.qq.com
-  - DOMAIN-SUFFIX,cm.l.qq.com
-  - DOMAIN-SUFFIX,m.l.qq.com
-  - DOMAIN-SUFFIX,p.l.qq.com
-  - DOMAIN-SUFFIX,x.l.qq.com
-  - DOMAIN-SUFFIX,p.tencentmind.com
-  #小米
-  - DOMAIN-SUFFIX,api.ad.xiaomi.com
-  #快手
-  - DOMAIN-SUFFIX,kuaishou.httpdns.pro
-  - DOMAIN-SUFFIX,apidns.kwd.inkuai.com
-  - DOMAIN-SUFFIX,hdns.ksyun.com
-  #网易
-  - DOMAIN-SUFFIX,httpdns-sdk.n.netease.com
-  - DOMAIN-SUFFIX,httpdns.n.netease.com
-  - DOMAIN-SUFFIX,httpdns.music.163.com
-  - DOMAIN-SUFFIX,,music.httpdns.c.163.com
-  - DOMAIN-SUFFIX,,httpdns.yunxindns.com
-  - DOMAIN-SUFFIX,,lofter.httpdns.c.163.com
-  #公共HTTP_DNS
-  - DOMAIN-SUFFIX,httpdns.c.cdnhwc2.com
-  - DOMAIN-SUFFIX,httpdns.pro
- #Youtube
-  #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
-  #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com
-  #- DOMAIN-REGEX,r\d+---sn-q4f[a-zA-Z0-9]*\.googlevideo\.com
-  #- DOMAIN-REGEX,r\d+---sn-a5m[a-zA-Z0-9]*\.googlevideo\.com
-  #- DOMAIN-REGEX,r\d+---sn-5hn[a-zA-Z0-9]*\.googlevideo\.com
+
   #- DOMAIN-REGEX,r\d+---sn-4g5[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-ogu[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-5go[a-zA-Z0-9]*\.googlevideo\.com

@@ -48,11 +48,11 @@ payload:
  #Sogou
   - DOMAIN-SUFFIX,otheve.beacon.qq.com
  #狗逼知乎
-  - DOMAIN-REGEX,(103)\.(41)\.(167)\.(237)
-  - DOMAIN-REGEX,(118)\.(89)\.(204)\.(198)
-  - IP-CIDR,103.41.167.237/32,no-resolve
-  - IP-CIDR,118.89.204.198/32,no-resolve
-  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+  #- DOMAIN-REGEX,(103)\.(41)\.(167)\.(237)
+  #- DOMAIN-REGEX,(118)\.(89)\.(204)\.(198)
+  #- IP-CIDR,103.41.167.237/32,no-resolve
+  #- IP-CIDR,118.89.204.198/32,no-resolve
+  #- IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
   #广告平台
   - DOMAIN-SUFFIX,sigmob.cn
   - DOMAIN-SUFFIX,etoolads.cn

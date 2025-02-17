@@ -191,3 +191,9 @@ payload:
   - DOMAIN-SUFFIX,p.l.qq.com
   - DOMAIN-SUFFIX,x.l.qq.com
   - DOMAIN-SUFFIX,p.tencentmind.com
+  #小米
+  - DOMAIN-SUFFIX,api.ad.xiaomi.com
+  #快手
+  - DOMAIN-SUFFIX,kuaishou.httpdns.pro
+  - DOMAIN-SUFFIX,apidns.kwd.inkuai.com
+  - DOMAIN-SUFFIX,hdns.ksyun.com

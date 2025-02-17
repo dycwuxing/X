@@ -170,7 +170,34 @@ payload:
   - DOMAIN-SUFFIX,e.stat.ykimg.com
   - DOMAIN-SUFFIX,p-log.ykimg.com
   - DOMAIN-SUFFIX,themis.ykimg.com
-
+  #腾讯
+  - DOMAIN-SUFFIX,aegis.qq.com
+  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
+  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
+  #腾讯视频
+  - DOMAIN-SUFFIX,bla.gtimg.com
+  - DOMAIN-SUFFIX,ra.gtimg.com
+  - DOMAIN-SUFFIX,adsrich.qq.com
+  - DOMAIN-SUFFIX,jqmt.qq.com
+  - DOMAIN-SUFFIX,jsqmt.qq.com
+  - DOMAIN-SUFFIX,pingfore.qq.com
+  - DOMAIN-SUFFIX,pinghot.qq.com
+  - DOMAIN-SUFFIX,tj.video.qq.com
+  - DOMAIN-SUFFIX,imc.l.qq.com
+  - DOMAIN-SUFFIX,livec.l.qq.com
+  - DOMAIN-SUFFIX,livep.l.qq.com
+  - DOMAIN-SUFFIX,lives.l.qq.com
+  - DOMAIN-SUFFIX,cm.l.qq.com
+  - DOMAIN-SUFFIX,m.l.qq.com
+  - DOMAIN-SUFFIX,p.l.qq.com
+  - DOMAIN-SUFFIX,x.l.qq.com
+  - DOMAIN-SUFFIX,p.tencentmind.com
+  #小米
+  - DOMAIN-SUFFIX,api.ad.xiaomi.com
+  #快手
+  - DOMAIN-SUFFIX,kuaishou.httpdns.pro
+  - DOMAIN-SUFFIX,apidns.kwd.inkuai.com
+  - DOMAIN-SUFFIX,hdns.ksyun.com
   #网易
   - DOMAIN-SUFFIX,httpdns-sdk.n.netease.com
   - DOMAIN-SUFFIX,httpdns.n.netease.com
@@ -181,7 +208,7 @@ payload:
   #公共HTTP_DNS
   - DOMAIN-SUFFIX,httpdns.c.cdnhwc2.com
   - DOMAIN-SUFFIX,httpdns.pro
- #Youtube
+  #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-q4f[a-zA-Z0-9]*\.googlevideo\.com

@@ -197,3 +197,10 @@ payload:
   - DOMAIN-SUFFIX,kuaishou.httpdns.pro
   - DOMAIN-SUFFIX,apidns.kwd.inkuai.com
   - DOMAIN-SUFFIX,hdns.ksyun.com
+  #网易
+  - DOMAIN-SUFFIX,httpdns-sdk.n.netease.com
+  - DOMAIN-SUFFIX,httpdns.n.netease.com
+  - DOMAIN-SUFFIX,httpdns.music.163.com
+  - DOMAIN-SUFFIX,,music.httpdns.c.163.com
+  - DOMAIN-SUFFIX,,httpdns.yunxindns.com
+  - DOMAIN-SUFFIX,,lofter.httpdns.c.163.com

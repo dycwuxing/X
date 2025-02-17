@@ -85,6 +85,7 @@ payload:
   - IP-CIDR,79.136.145.175/32,no-resolve
   #Other
   - DOMAIN-SUFFIX,hao123.com
+  - DOMAIN-SUFFIX,toblog.ctobsnssdk.com
   #widows_升级提醒
   - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com

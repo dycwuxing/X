@@ -193,6 +193,12 @@ payload:
   - DOMAIN-SUFFIX,p.tencentmind.com
   #小米
   - DOMAIN-SUFFIX,api.ad.xiaomi.com
+  - DOMAIN-SUFFIX,tracking.miui.com
+  - DOMAIN-SUFFIX,data.mistat.xiaomi.com
+  - DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
+  - DOMAIN-SUFFIX,log.ad.xiaomi.com
+  - DOMAIN-SUFFIX,m.track.ad.xiaomi.com
+  - DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
   #快手
   - DOMAIN-SUFFIX,kuaishou.httpdns.pro
   - DOMAIN-SUFFIX,apidns.kwd.inkuai.com

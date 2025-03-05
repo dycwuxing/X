@@ -214,7 +214,7 @@ payload:
   - DOMAIN-SUFFIX,httpdns.c.cdnhwc2.com
   - DOMAIN-SUFFIX,httpdns.pro
   #hao123
-  - IP-CIDR,110.242.68.247,no-resolve
+  - IP-CIDR,110.242.68.247/32,no-resolve
   #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

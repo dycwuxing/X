@@ -203,6 +203,33 @@ payload:
   - DOMAIN-SUFFIX,kuaishou.httpdns.pro
   - DOMAIN-SUFFIX,apidns.kwd.inkuai.com
   - DOMAIN-SUFFIX,hdns.ksyun.com
+  #番茄 https://raw.githubusercontent.com/honue/rules/master/Loon/plugin/FanQieNovel.plugin
+  - DOMAIN,i.snssdk.com
+  - DOMAIN,i-lq.snssdk.com
+  - DOMAIN,dig.bdurl.net
+  - DOMAIN,activity-ag.awemeughun.com
+  - DOMAIN,mcs.snssdk.com
+  - DOMAIN,tnc3-alisc1.snssdk.com
+  - DOMAIN,security-lq.snssdk.com
+  - DOMAIN,tnc3-aliec2.snssdk.com
+  - DOMAIN,is.snssdk.com
+  - DOMAIN,v6-novelapp.ixigua.com
+  - DOMAIN,*novelapp.ixigua.com
+  - DOMAIN,*default.ixigua.com
+  - DOMAIN,msync-im1-vip6-std.easemob.com
+  - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+  - DOMAIN,api.iegadp.qq.com
+  - DOMAIN,sf3-ttcdn-tos.pstatp.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
+  - DOMAIN-SUFFIX,byteorge.com
+  - DOMAIN-SUFFIX,bytegoofy.com
+  - DOMAIN-SUFFIX,bytedance.com
+  - IP-CIDR,49.71.37.101/32,no-resolve
+  - IP-CIDR,117.71.105.23/32,no-resolve
+  - IP-CIDR,218.94.207.205/32,no-resolve
+  - IP-CIDR,117.92.229.188/32,no-resolve
+  - IP-CIDR,101.36.166.16/32,no-resolve
+  - IP-CIDR,180.96.2.114/32,no-resolve 
   #网易
   - DOMAIN-SUFFIX,httpdns-sdk.n.netease.com
   - DOMAIN-SUFFIX,httpdns.n.netease.com

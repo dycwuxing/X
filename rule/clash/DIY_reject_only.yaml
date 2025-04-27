@@ -16,3 +16,5 @@ payload:
   #用于追踪日志的
   #- DOMAIN,o1098464.ingest.sentry.io
   - DOMAIN-SUFFIX,sentry.io
+  #vscode总是访问169.254.169.254
+  - IP-CIDR,169.254.169.254,no-resolve

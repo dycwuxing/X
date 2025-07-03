@@ -242,6 +242,8 @@ payload:
   - DOMAIN-SUFFIX,httpdns.pro
   #hao123
   - IP-CIDR,110.242.68.247/32,no-resolve
+  #XTerminal
+  - AND,((PROCESS-NAME-REGEX,.*XTerminal.*),(DOMAIN-SUFFIX,xterminal.cn),no-resolve)
   #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

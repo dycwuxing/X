@@ -14,3 +14,5 @@ payload:
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN,new.oaifree.com #linux.do_AI
+  #x.ai
+  - DOMAIN-SUFFIX,x.ai

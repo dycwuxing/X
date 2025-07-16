@@ -16,3 +16,4 @@ payload:
   - DOMAIN,new.oaifree.com #linux.do_AI
   #x.ai
   - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com

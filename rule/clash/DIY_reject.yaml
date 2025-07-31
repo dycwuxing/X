@@ -18,6 +18,7 @@ payload:
   - PROCESS-NAME,Adobe Crash Processor,no-resolve
   - PROCESS-NAME,Microsoft AutoUpdate,no-resolve
   - PROCESS-NAME,Microsoft Update Assistant,no-resolve
+
   #finalshell
   - PROCESS-NAME,FinalShell,no-resolve
   - IP-CIDR,58.247.214.47/32,no-resolve
@@ -244,6 +245,8 @@ payload:
   - IP-CIDR,110.242.68.247/32,no-resolve
   #XTerminal
   - AND,((PROCESS-NAME-REGEX,.*XTerminal.*),(DOMAIN-SUFFIX,xterminal.cn),no-resolve)
+  #utools
+  - PROCESS-NAME,utools.exe,no-resolve
   #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

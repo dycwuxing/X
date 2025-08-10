@@ -10,6 +10,7 @@ payload:
   - DOMAIN,ocsp.apple.com
   - DOMAIN,ocsp2.apple.com
   - DOMAIN,swscan.apple.com
+  - DOMAIN-REGEX,^swscan.*\.apple.com$
   - DOMAIN,bpapi.apple.com
   - DOMAIN,gdmf.v.aaplimg.com
   - DOMAIN,xp.itunes-apple.com.akadns.net

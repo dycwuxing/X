@@ -1,4 +1,5 @@
 payload:
+  - PROCESS-NAME,softwareupdated,no-resolve
   - DOMAIN,xp.apple.com
   - DOMAIN,gdmf.apple.com
   - DOMAIN,mesu.apple.com
@@ -10,7 +11,7 @@ payload:
   - DOMAIN,ocsp.apple.com
   - DOMAIN,ocsp2.apple.com
   - DOMAIN,swscan.apple.com
-  - DOMAIN-REGEX,^swscan.*\.apple.com$
+  - DOMAIN-REGEX,^swscan.*\.apple.com
   - DOMAIN,bpapi.apple.com
   - DOMAIN,gdmf.v.aaplimg.com
   - DOMAIN,xp.itunes-apple.com.akadns.net

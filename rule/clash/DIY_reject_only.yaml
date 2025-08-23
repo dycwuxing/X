@@ -18,3 +18,5 @@ payload:
   - DOMAIN-SUFFIX,sentry.io
   #vscode总是访问169.254.169.254
   - IP-CIDR,169.254.169.254/32,no-resolve
+  #农行代理检测
+  - DOMAIN,msmp.abchina.com.cn

@@ -10,8 +10,12 @@ payload:
   - DOMAIN,updates.cdn-apple.com
   - DOMAIN,ocsp.apple.com
   - DOMAIN,ocsp2.apple.com
+  - DOMAIN,swdist.apple.com
+  - DOMAIN,swcdn.apple.com
+  - DOMAIN,swcdn.g.aaplimg.com
   - DOMAIN,swscan.apple.com
-  - DOMAIN-REGEX,^swscan.*\.apple.com
+  - DOMAIN-WILDCARD,swscan*.apple.com*
+  #- DOMAIN-REGEX,^swscan.*\.apple.com
   - DOMAIN,bpapi.apple.com
   - DOMAIN,gdmf.v.aaplimg.com
   - DOMAIN,xp.itunes-apple.com.akadns.net

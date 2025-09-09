@@ -1,18 +1,18 @@
 payload:
-  - PROCESS-NAME-REGEX,Paste,no-resolve
-  - PROCESS-NAME-REGEX,Bartender,no-resolve
-  - PROCESS-NAME-REGEX,Neural*Mix*Pro,no-resolve
-  - PROCESS-NAME-REGEX,Pixelmator*Pro,no-resolve
-  - PROCESS-NAME-REGEX,PPDuck*,no-resolve
-  - PROCESS-NAME-REGEX,Sound*Studio,no-resolve
-  - PROCESS-NAME-REGEX,Wondershare*,no-resolve
+  - PROCESS-NAME-REGEX,.*Paste.*,no-resolve
+  - PROCESS-NAME-REGEX,.*Bartender.*,no-resolve
+  - PROCESS-NAME-REGEX,.*Neural.*Mix.*Pro,no-resolve
+  - PROCESS-NAME-REGEX,Pixelmator.*Pro,no-resolve
+  - PROCESS-NAME-REGEX,.*PPDuck.*,no-resolve
+  - PROCESS-NAME-REGEX,.*Sound.*Studio,no-resolve
+  - PROCESS-NAME-REGEX,.*Wondershare.*,no-resolve
   - PROCESS-NAME,AdobeCRDaemon,no-resolve
   - PROCESS-NAME,AdobeIPCBroker,no-resolve
-  - PROCESS-NAME-REGEX,Adobe Photoshop*,no-resolve
-  - PROCESS-NAME-REGEX,Creative Cloud*,no-resolve
-  - PROCESS-NAME-REGEX,Adobe Crash*,no-resolve
-  - PROCESS-NAME-REGEX,Microsoft*Update*,no-resolve
-  - AND,((PROCESS-NAME-REGEX,wpscloudsvr*,no-resolve),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
+  - PROCESS-NAME-REGEX,.*Adobe.*Photoshop.*,no-resolve
+  - PROCESS-NAME-REGEX,.*Creative.*Cloud.*,no-resolve
+  - PROCESS-NAME-REGEX,.*Adobe.*Crash.*,no-resolve
+  - PROCESS-NAME-REGEX,.*Microsoft.*Update.*,no-resolve
+  - AND,((PROCESS-NAME-REGEX,.*wpscloudsvr.*,no-resolve),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
 
   #finalshell
   - PROCESS-NAME,FinalShell,no-resolve

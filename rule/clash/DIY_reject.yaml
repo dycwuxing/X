@@ -243,7 +243,7 @@ payload:
   #XTerminal
   - AND,((PROCESS-NAME-REGEX,.*XTerminal.*),(DOMAIN-SUFFIX,xterminal.cn),no-resolve)
   #utools
-  - PROCESS-NAME-REGEX,utools*,no-resolve
+  - PROCESS-NAME-REGEX,utools.*,no-resolve
   #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

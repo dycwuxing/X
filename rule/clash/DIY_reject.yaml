@@ -1,24 +1,18 @@
 payload:
-  - PROCESS-NAME,Paste,no-resolve
-  - PROCESS-NAME,Bartender 4,no-resolve
-  - PROCESS-NAME,Neural Mix Pro,no-resolve
-  - PROCESS-NAME,Pixelmator Pro,no-resolve
-  - PROCESS-NAME,PPDuck3,no-resolve
-  - PROCESS-NAME,Sound Studio,no-resolve
-  - PROCESS-NAME,Wondershare PDFelement,no-resolve
-  - PROCESS-NAME,Wondershare UniConverter 14,no-resolve
+  - PROCESS-NAME-REGEX,Paste,no-resolve
+  - PROCESS-NAME-REGEX,Bartender,no-resolve
+  - PROCESS-NAME-REGEX,Neural*Mix*Pro,no-resolve
+  - PROCESS-NAME-REGEX,Pixelmator*Pro,no-resolve
+  - PROCESS-NAME-REGEX,PPDuck*,no-resolve
+  - PROCESS-NAME-REGEX,Sound*Studio,no-resolve
+  - PROCESS-NAME-REGEX,Wondershare*,no-resolve
   - PROCESS-NAME,AdobeCRDaemon,no-resolve
   - PROCESS-NAME,AdobeIPCBroker,no-resolve
-  - PROCESS-NAME,Adobe Photoshop 2022,no-resolve
-  - PROCESS-NAME,Adobe Photoshop 2022 Networking,no-resolve
-  - PROCESS-NAME,Adobe Photoshop 2024,no-resolve
-  - PROCESS-NAME,Adobe Photoshop 2024 Networking,no-resolve
-  - PROCESS-NAME,Creative Cloud Content Manager.node,no-resolve
-  - PROCESS-NAME,Adobe Crash Handler,no-resolve
-  - PROCESS-NAME,Adobe Crash Processor,no-resolve
-  - PROCESS-NAME,Microsoft AutoUpdate,no-resolve
-  - PROCESS-NAME,Microsoft Update Assistant,no-resolve
-  - AND,((PROCESS-NAME,wpscloudsvr*,no-resolve),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
+  - PROCESS-NAME-REGEX,Adobe Photoshop*,no-resolve
+  - PROCESS-NAME-REGEX,Creative Cloud*,no-resolve
+  - PROCESS-NAME-REGEX,Adobe Crash*,no-resolve
+  - PROCESS-NAME-REGEX,Microsoft*Update*,no-resolve
+  - AND,((PROCESS-NAME-REGEX,wpscloudsvr*,no-resolve),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
 
   #finalshell
   - PROCESS-NAME,FinalShell,no-resolve
@@ -249,7 +243,7 @@ payload:
   #XTerminal
   - AND,((PROCESS-NAME-REGEX,.*XTerminal.*),(DOMAIN-SUFFIX,xterminal.cn),no-resolve)
   #utools
-  - PROCESS-NAME,utools.exe,no-resolve
+  - PROCESS-NAME-REGEX,utools*,no-resolve
   #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

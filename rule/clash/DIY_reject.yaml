@@ -18,6 +18,7 @@ payload:
   - PROCESS-NAME,Adobe Crash Processor,no-resolve
   - PROCESS-NAME,Microsoft AutoUpdate,no-resolve
   - PROCESS-NAME,Microsoft Update Assistant,no-resolve
+  - AND,((PROCESS-NAME,wpscloudsvr*,no-resolve),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
 
   #finalshell
   - PROCESS-NAME,FinalShell,no-resolve

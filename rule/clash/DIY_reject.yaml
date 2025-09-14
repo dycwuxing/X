@@ -245,7 +245,7 @@ payload:
   #utools
   - PROCESS-NAME-REGEX,.*utools.*
   #lanlan_mac未知UDP高位端口链接
-  - IP-CIDR,122.225.66.0/24,no-resolve
+  #- IP-CIDR,122.225.66.0/24,no-resolve
   #Youtube
   #- DOMAIN-REGEX,r\d+---sn-aig[a-zA-Z0-9]*\.googlevideo\.com
   #- DOMAIN-REGEX,r\d+---sn-hp5[a-zA-Z0-9]*\.googlevideo\.com

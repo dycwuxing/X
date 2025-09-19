@@ -12,6 +12,9 @@ payload:
   - PROCESS-NAME-REGEX,.*Creative.*Cloud.*
   - PROCESS-NAME-REGEX,.*Adobe.*Crash.*
   - PROCESS-NAME-REGEX,.*Microsoft.*Update.*
+  - PROCESS-NAME-REGEX,.*GoogleUpdate.*
+  - PROCESS-NAME-REGEX,.*GoogleSoftwareUpdate.*
+  
   - AND,((PROCESS-NAME-REGEX,.*wpscloudsvr.*),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
 
   #finalshell

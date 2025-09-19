@@ -17,6 +17,7 @@ payload:
   - PROCESS-NAME-REGEX,.*updater.exe #chrome
   - PROCESS-NAME-REGEX,.*Bandicam.*
   - PROCESS-NAME-REGEX,.*Bandizip.*
+  - PROCESS-NAME-REGEX,.*XLGame.*
 
   - AND,((PROCESS-NAME-REGEX,.*wpscloudsvr.*),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
 

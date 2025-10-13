@@ -255,6 +255,7 @@ payload:
   #sony系统更新
   - DOMAIN-SUFFIX,update.biv.sony.tv
   - DOMAIN-SUFFIX,api.erabu.sony.tv
+  - DOMAIN-SUFFIX,tv-update.sony.com.cn
   #乐播投屏
   - DOMAIN-SUFFIX,www.lebo.cn
   - DOMAIN-SUFFIX,hpplay.cdn.cibn.cc

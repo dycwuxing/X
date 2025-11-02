@@ -12,6 +12,7 @@ payload:
   - PROCESS-NAME-REGEX,.*Creative.*Cloud.*
   - PROCESS-NAME-REGEX,.*Adobe.*Crash.*
   - PROCESS-NAME-REGEX,.*Microsoft.*Update.*
+  - PROCESS-NAME-REGEX,.*EdgeUpdater.*
   - PROCESS-NAME-REGEX,.*GoogleUpdate.*
   - PROCESS-NAME-REGEX,.*GoogleSoftwareUpdate.*
   - PROCESS-NAME-REGEX,.*updater.exe #chrome

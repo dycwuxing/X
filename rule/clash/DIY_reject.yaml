@@ -259,6 +259,8 @@ payload:
   - DOMAIN-SUFFIX,tv-update.sony.com.cn
   #sony联网网址,疑似远控
   - DOMAIN-SUFFIX,sonyyk.v5tv.com
+  #sony联网地址,疑似广告
+  - DOMAIN-SUFFIX,unpkg.zhimg.com
   #乐播投屏
   - DOMAIN-SUFFIX,www.lebo.cn
   - DOMAIN-SUFFIX,hpplay.cdn.cibn.cc

@@ -254,13 +254,15 @@ payload:
   #utools
   - PROCESS-NAME-REGEX,.*utools.*
   #sony系统更新
-  - DOMAIN-SUFFIX,update.biv.sony.tv
-  - DOMAIN-SUFFIX,api.erabu.sony.tv
-  - DOMAIN-SUFFIX,tv-update.sony.com.cn
-  #sony联网网址,疑似远控
-  - DOMAIN-SUFFIX,sonyyk.v5tv.com
-  #sony联网地址,疑似广告
-  - DOMAIN-SUFFIX,unpkg.zhimg.com
+  - AND,((SRC-IP-CIDR,192.168.10.125/32,no-resolve),(DOMAIN-SUFFIX,update.biv.sony.tv,    no-resolve),no-resolve)
+  - AND,((SRC-IP-CIDR,192.168.10.125/32,no-resolve),(DOMAIN-SUFFIX,api.erabu.sony.tv,     no-resolve),no-resolve)
+  - AND,((SRC-IP-CIDR,192.168.10.125/32,no-resolve),(DOMAIN-SUFFIX,tv-update.sony.com.cn, no-resolve),no-resolve)
+  #sony联网网址,疑似远控或CDN
+  - AND,((SRC-IP-CIDR,192.168.10.125/32,no-resolve),(DOMAIN-SUFFIX,sonyyk.v5tv.com,       no-resolve),no-resolve)
+  - AND,((SRC-IP-CIDR,192.168.10.125/32,no-resolve),(DOMAIN-SUFFIX,ndmdhs.com,            no-resolve),no-resolve)
+  #sony联网地址,疑似广告(知乎/当贝)
+  - AND,((SRC-IP-CIDR,192.168.10.125/32,no-resolve),(DOMAIN-SUFFIX,unpkg.zhimg.com,       no-resolve),no-resolve)
+  - AND,((SRC-IP-CIDR,192.168.10.125/32,no-resolve),(DOMAIN-SUFFIX,zmapi.dangsfly.com,    no-resolve),no-resolve)
   #乐播投屏
   - DOMAIN-SUFFIX,www.lebo.cn
   - DOMAIN-SUFFIX,hpplay.cdn.cibn.cc

@@ -3,7 +3,7 @@ payload:
   #OPENAI
   - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-,no-resolve),(DOMAIN-SUFFIX,webpubsub.azure.com,no-resolve),no-resolve)
   - AND,((DOMAIN-KEYWORD,openaicom-api-,no-resolve),(DOMAIN-SUFFIX,azurefd.net,no-resolve),no-resolve)
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaicom.imgix.net
@@ -13,6 +13,13 @@ payload:
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+  - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+  - DOMAIN,browser-intake-datadoghq.com  
   - DOMAIN,new.oaifree.com #linux.do_AI
   #x.ai
   - DOMAIN-SUFFIX,x.ai

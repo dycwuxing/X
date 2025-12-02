@@ -1,4 +1,5 @@
 #https://raw.githubusercontent.com/qoli/SyncnextClash/main/Unbreak-classical.yaml
+#
 payload:
   - DOMAIN-WILDCARD,cloudcube*cn
   - DOMAIN-SUFFIX,v1.ax

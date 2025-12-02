@@ -1,5 +1,10 @@
 #https://raw.githubusercontent.com/qoli/SyncnextClash/main/Unbreak-classical.yaml
 payload:
+  - DOMAIN-WILDCARD,cloudcube.*.cn
+  - DOMAIN-SUFFIX,v1.ax
+  - IP-CIDR,216.180.0.0/16,no-resolve
+  - IP-CIDR,103.160.204.120/32,no-resolve
+  - IP-CIDR,138.199.9.104/32,no-resolve
   - DOMAIN-SUFFIX,movie.douban.com
   - DOMAIN-SUFFIX,mddcloud.com.cn
   - DOMAIN-SUFFIX,aliyundrive.asia
@@ -9,7 +14,6 @@ payload:
   - DOMAIN-SUFFIX,ddys.mov
   - DOMAIN-SUFFIX,ddys.art
   - DOMAIN-SUFFIX,zh188.net
-  - DOMAIN-SUFFIX,cz.cz01.site
   - DOMAIN-SUFFIX,kczybf.com
   - DOMAIN-SUFFIX,mixpanel.com
   - DOMAIN-SUFFIX,appsflyer.com
@@ -19,24 +23,43 @@ payload:
   - DOMAIN-KEYWORD,ffzy-play
   - DOMAIN-KEYWORD,bfzycdn.com
   - DOMAIN-KEYWORD,lzcdn
-  - DOMAIN-KEYWORD,v.cdnlz
+  - DOMAIN-KEYWORD,cdnlz
   - DOMAIN-KEYWORD,lz-cdn
   - DOMAIN-KEYWORD,default.akamaized.net
   - DOMAIN-KEYWORD,vip.ffzy-online
   - DOMAIN-KEYWORD,vip.ffzy-play
   - DOMAIN-KEYWORD,ffzyread
   - DOMAIN-SUFFIX,kuaikan-api.com
+  - DOMAIN-SUFFIX,cz.cz01.site
   - DOMAIN-SUFFIX,czzy88.com
   - DOMAIN-SUFFIX,czzy22.com
   - DOMAIN-SUFFIX,czzy66.com
   - DOMAIN-SUFFIX,cz233.com
   - DOMAIN-SUFFIX,CZZ9.COM
-  - DOMAIN-SUFFIX,v1.ax
-  - IP-CIDR,216.180.0.0/16,no-resolve
-  - IP-CIDR,103.160.204.120/32,no-resolve
-  - IP-CIDR,138.199.9.104/32,no-resolve
+  - DOMAIN-SUFFIX,czzy.top
+  - DOMAIN-SUFFIX,czys.top
+  - DOMAIN-SUFFIX,czzy77.com
   - DOMAIN-SUFFIX,wogg.link
   - DOMAIN-SUFFIX,xxooo.cf
   - DOMAIN-SUFFIX,wogg.xyz
   - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-KEYWORD,tt.cuc.myqcloud.com.cn
+  - DOMAIN-SUFFIX,ikzybf.com
+  - DOMAIN-SUFFIX,yanetflix.one
+  - DOMAIN-SUFFIX,bfikuncdn.com
+  - DOMAIN-SUFFIX,ikunzyapi.com
+  - DOMAIN-SUFFIX,kkzycdn.com
+  - DOMAIN-SUFFIX,libvio.mov
+  - DOMAIN-SUFFIX,libvio.cc
+  - DOMAIN-SUFFIX,libvio.la
+  - DOMAIN-SUFFIX,libvio.pro
+  - DOMAIN-SUFFIX,libvio.fun
+  - DOMAIN-SUFFIX,libvio.me
+  - DOMAIN-SUFFIX,libvio.in
+  - DOMAIN-SUFFIX,libvio.site
+  - DOMAIN-SUFFIX,libvio.art
+  - DOMAIN-SUFFIX,libvio.com
+  - DOMAIN-SUFFIX,libvio.vip
+  - DOMAIN-SUFFIX,libvio.pw
+  - DOMAIN-SUFFIX,libvio.link
+  - DOMAIN-SUFFIX,czzymovie.com

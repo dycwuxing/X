@@ -177,6 +177,8 @@ payload:
   - DOMAIN-SUFFIX,e.stat.ykimg.com
   - DOMAIN-SUFFIX,p-log.ykimg.com
   - DOMAIN-SUFFIX,themis.ykimg.com
+  #腾讯升级
+  - DOMAIN-REGEX,dldir.*\.qq\.com
   #腾讯
   - DOMAIN-SUFFIX,aegis.qq.com
   - DOMAIN-SUFFIX,dns.weixin.qq.com.cn

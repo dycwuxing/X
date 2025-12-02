@@ -1,7 +1,7 @@
 #https://raw.githubusercontent.com/qoli/SyncnextClash/main/Unbreak-classical.yaml
 #
 payload:
-  - DOMAIN-WILDCARD,cloudcube*cn
+  - DOMAIN-REGEX,^cloudcube.*\.com$
   - DOMAIN-SUFFIX,v1.ax
   - IP-CIDR,216.180.0.0/16,no-resolve
   - IP-CIDR,103.160.204.120/32,no-resolve

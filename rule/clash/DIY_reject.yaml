@@ -20,6 +20,7 @@ payload:
   - PROCESS-NAME-REGEX,.*Bandizip.*
   - PROCESS-NAME-REGEX,.*XLGame.*
   - PROCESS-NAME-REGEX,.*App Cleaner.*
+  - PROCESS-NAME-REGEX,.*SoundSource.*
 
   - AND,((PROCESS-NAME-REGEX,.*wpscloudsvr.*),(DOMAIN-SUFFIX,baidu.com,no-resolve),no-resolve)
 

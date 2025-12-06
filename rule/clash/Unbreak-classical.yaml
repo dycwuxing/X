@@ -4,6 +4,7 @@ payload:
   #- DOMAIN-REGEX,^cloudcube.*\.com$ #只是.cn
   #- DOMAIN-WILDCARD,cloudcube.*.com #只是.cn
   - DOMAIN-WILDCARD,cloudcube.*.cn
+  - DOMAIN-WILDCARD,*telecom*.mini189.cn
   - DOMAIN-SUFFIX,v1.ax
   - IP-CIDR,216.180.0.0/16,no-resolve
   - IP-CIDR,103.160.204.120/32,no-resolve

@@ -94,6 +94,7 @@ payload:
   #Other
   - DOMAIN-SUFFIX,hao123.com
   - DOMAIN-SUFFIX,toblog.ctobsnssdk.com
+  - DOMAIN,s.pemsrv.com # 秀人网点击会弹出AD网址
   #widows_升级提醒
   - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com

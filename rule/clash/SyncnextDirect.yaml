@@ -6,6 +6,9 @@ payload:
   - DOMAIN-WILDCARD,cloudcube.*.cn
   - DOMAIN-WILDCARD,*telecom*.mini189.cn
   - DOMAIN-WILDCARD,cloud*telecom*com
+  - DOMAIN-SUFFIX,cloud.189.cn
+  - DOMAIN-WILDCARD,*cloud.dlife.cn
+  - DOMAIN-SUFFIX,ux.21cn.com
   - DOMAIN-SUFFIX,v1.ax
   - IP-CIDR,216.180.0.0/16,no-resolve
   - IP-CIDR,103.160.204.120/32,no-resolve

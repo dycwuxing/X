@@ -20,3 +20,5 @@ payload:
   - IP-CIDR,169.254.169.254/32,no-resolve
   #农行代理检测
   - DOMAIN,msmp.abchina.com.cn
+  # 秀人网弹标签页
+  - DOMAIN,s.pemsrv.com
